@@ -1,0 +1,387 @@
+{
+  "BackgroundColor": {
+    "Blue": 128,
+    "Green": 0,
+    "Red": 0
+  },
+  "BackgroundImageFileName": null,
+  "DefaultKeyStyle": {
+    "Loose": {
+      "Background": {
+        "Blue": 0,
+        "Green": 0,
+        "Red": 0
+      },
+      "BackgroundImageFileName": "",
+      "Font": {
+        "FontFamily": "Tahoma",
+        "Size": 9.75,
+        "Style": 1
+      },
+      "Outline": {
+        "Blue": 0,
+        "Green": 255,
+        "Red": 0
+      },
+      "OutlineWidth": 1,
+      "ShowOutline": false,
+      "Text": {
+        "Blue": 255,
+        "Green": 255,
+        "Red": 255
+      }
+    },
+    "Pressed": {
+      "Background": {
+        "Blue": 255,
+        "Green": 255,
+        "Red": 255
+      },
+      "BackgroundImageFileName": "",
+      "Font": {
+        "FontFamily": "Tahoma",
+        "Size": 12.75,
+        "Style": 0
+      },
+      "Outline": {
+        "Blue": 255,
+        "Green": 0,
+        "Red": 128
+      },
+      "OutlineWidth": 1,
+      "ShowOutline": false,
+      "Text": {
+        "Blue": 0,
+        "Green": 0,
+        "Red": 0
+      }
+    }
+  },
+  "DefaultMouseSpeedIndicatorStyle": {
+    "InnerColor": {
+      "Blue": 0,
+      "Green": 0,
+      "Red": 0
+    },
+    "OuterColor": {
+      "Blue": 0,
+      "Green": 0,
+      "Red": 0
+    },
+    "OutlineWidth": 5
+  },
+  "ElementStyles": [
+    {
+      "Key": 7,
+      "Value": {
+        "__type": "KeyStyle",
+        "Loose": {
+          "Background": {
+            "Blue": 255,
+            "Green": 255,
+            "Red": 0
+          },
+          "BackgroundImageFileName": "",
+          "Font": {
+            "FontFamily": "Tahoma",
+            "Size": 9.75,
+            "Style": 1
+          },
+          "Outline": {
+            "Blue": 0,
+            "Green": 255,
+            "Red": 0
+          },
+          "OutlineWidth": 1,
+          "ShowOutline": false,
+          "Text": {
+            "Blue": 0,
+            "Green": 0,
+            "Red": 0
+          }
+        },
+        "Pressed": {
+          "Background": {
+            "Blue": 255,
+            "Green": 0,
+            "Red": 128
+          },
+          "BackgroundImageFileName": "",
+          "Font": {
+            "FontFamily": "Tahoma",
+            "Size": 12.75,
+            "Style": 1
+          },
+          "Outline": {
+            "Blue": 255,
+            "Green": 0,
+            "Red": 128
+          },
+          "OutlineWidth": 1,
+          "ShowOutline": false,
+          "Text": {
+            "Blue": 255,
+            "Green": 255,
+            "Red": 255
+          }
+        }
+      }
+    },
+    {
+      "Key": 4,
+      "Value": {
+        "__type": "KeyStyle",
+        "Loose": {
+          "Background": {
+            "Blue": 0,
+            "Green": 255,
+            "Red": 255
+          },
+          "BackgroundImageFileName": "",
+          "Font": {
+            "FontFamily": "Tahoma",
+            "Size": 9.75,
+            "Style": 1
+          },
+          "Outline": {
+            "Blue": 0,
+            "Green": 128,
+            "Red": 255
+          },
+          "OutlineWidth": 1,
+          "ShowOutline": false,
+          "Text": {
+            "Blue": 0,
+            "Green": 0,
+            "Red": 0
+          }
+        },
+        "Pressed": {
+          "Background": {
+            "Blue": 255,
+            "Green": 0,
+            "Red": 128
+          },
+          "BackgroundImageFileName": "",
+          "Font": {
+            "FontFamily": "Tahoma",
+            "Size": 12.75,
+            "Style": 1
+          },
+          "Outline": {
+            "Blue": 255,
+            "Green": 0,
+            "Red": 128
+          },
+          "OutlineWidth": 1,
+          "ShowOutline": false,
+          "Text": {
+            "Blue": 255,
+            "Green": 255,
+            "Red": 255
+          }
+        }
+      }
+    },
+    {
+      "Key": 8,
+      "Value": {
+        "__type": "KeyStyle",
+        "Loose": {
+          "Background": {
+            "Blue": 255,
+            "Green": 128,
+            "Red": 0
+          },
+          "BackgroundImageFileName": "",
+          "Font": {
+            "FontFamily": "Tahoma",
+            "Size": 9.75,
+            "Style": 0
+          },
+          "Outline": {
+            "Blue": 0,
+            "Green": 255,
+            "Red": 0
+          },
+          "OutlineWidth": 1,
+          "ShowOutline": false,
+          "Text": {
+            "Blue": 0,
+            "Green": 0,
+            "Red": 0
+          }
+        },
+        "Pressed": {
+          "Background": {
+            "Blue": 255,
+            "Green": 0,
+            "Red": 128
+          },
+          "BackgroundImageFileName": "",
+          "Font": {
+            "FontFamily": "Tahoma",
+            "Size": 12.75,
+            "Style": 1
+          },
+          "Outline": {
+            "Blue": 255,
+            "Green": 0,
+            "Red": 128
+          },
+          "OutlineWidth": 1,
+          "ShowOutline": false,
+          "Text": {
+            "Blue": 255,
+            "Green": 255,
+            "Red": 255
+          }
+        }
+      }
+    },
+    {
+      "Key": 5,
+      "Value": {
+        "__type": "KeyStyle",
+        "Loose": {
+          "Background": {
+            "Blue": 0,
+            "Green": 128,
+            "Red": 255
+          },
+          "BackgroundImageFileName": "",
+          "Font": {
+            "FontFamily": "Tahoma",
+            "Size": 9.75,
+            "Style": 1
+          },
+          "Outline": {
+            "Blue": 0,
+            "Green": 255,
+            "Red": 0
+          },
+          "OutlineWidth": 1,
+          "ShowOutline": false,
+          "Text": {
+            "Blue": 0,
+            "Green": 0,
+            "Red": 0
+          }
+        },
+        "Pressed": {
+          "Background": {
+            "Blue": 255,
+            "Green": 0,
+            "Red": 128
+          },
+          "BackgroundImageFileName": "",
+          "Font": {
+            "FontFamily": "Tahoma",
+            "Size": 12.75,
+            "Style": 1
+          },
+          "Outline": {
+            "Blue": 255,
+            "Green": 0,
+            "Red": 128
+          },
+          "OutlineWidth": 1,
+          "ShowOutline": false,
+          "Text": {
+            "Blue": 255,
+            "Green": 255,
+            "Red": 255
+          }
+        }
+      }
+    },
+    {
+      "Key": 6,
+      "Value": {
+        "__type": "KeyStyle",
+        "Loose": {
+          "Background": {
+            "Blue": 0,
+            "Green": 0,
+            "Red": 255
+          },
+          "BackgroundImageFileName": "",
+          "Font": {
+            "FontFamily": "Tahoma",
+            "Size": 9.75,
+            "Style": 1
+          },
+          "Outline": {
+            "Blue": 0,
+            "Green": 255,
+            "Red": 0
+          },
+          "OutlineWidth": 1,
+          "ShowOutline": false,
+          "Text": {
+            "Blue": 0,
+            "Green": 255,
+            "Red": 0
+          }
+        },
+        "Pressed": {
+          "Background": {
+            "Blue": 255,
+            "Green": 0,
+            "Red": 128
+          },
+          "BackgroundImageFileName": "",
+          "Font": {
+            "FontFamily": "Tahoma",
+            "Size": 12.75,
+            "Style": 1
+          },
+          "Outline": {
+            "Blue": 255,
+            "Green": 0,
+            "Red": 128
+          },
+          "OutlineWidth": 1,
+          "ShowOutline": false,
+          "Text": {
+            "Blue": 0,
+            "Green": 255,
+            "Red": 255
+          }
+        }
+      }
+    },
+    {
+      "Key": 9,
+      "Value": {
+        "__type": "KeyStyle",
+        "Loose": null,
+        "Pressed": {
+          "Background": {
+            "Blue": 255,
+            "Green": 255,
+            "Red": 255
+          },
+          "BackgroundImageFileName": "",
+          "Font": {
+            "FontFamily": "Tahoma",
+            "Size": 12.75,
+            "Style": 1
+          },
+          "Outline": {
+            "Blue": 255,
+            "Green": 0,
+            "Red": 128
+          },
+          "OutlineWidth": 1,
+          "ShowOutline": false,
+          "Text": {
+            "Blue": 0,
+            "Green": 0,
+            "Red": 0
+          }
+        }
+      }
+    }
+  ]
+}

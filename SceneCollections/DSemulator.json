@@ -1,0 +1,1968 @@
+{
+    "DesktopAudioDevice1": {
+        "deinterlace_field_order": 0,
+        "deinterlace_mode": 0,
+        "enabled": true,
+        "flags": 0,
+        "hotkeys": {
+            "libobs.mute": [],
+            "libobs.push-to-mute": [],
+            "libobs.push-to-talk": [],
+            "libobs.unmute": []
+        },
+        "id": "wasapi_output_capture",
+        "mixers": 255,
+        "monitoring_type": 0,
+        "muted": false,
+        "name": "Desktop Audio",
+        "push-to-mute": false,
+        "push-to-mute-delay": 0,
+        "push-to-talk": false,
+        "push-to-talk-delay": 0,
+        "settings": {
+            "device_id": "default"
+        },
+        "sync": 0,
+        "volume": 0.14887697994709015
+    },
+    "current_program_scene": "Main Alt",
+    "current_scene": "Main Alt",
+    "current_transition": "Fade",
+    "modules": {
+        "auto-scene-switcher": {
+            "active": false,
+            "interval": 300,
+            "non_matching_scene": "",
+            "switch_if_not_matching": false,
+            "switches": []
+        },
+        "captions": {
+            "enabled": false,
+            "lang_id": 1033,
+            "source": ""
+        },
+        "output-timer": {
+            "autoStartRecordTimer": false,
+            "autoStartStreamTimer": false,
+            "recordTimerHours": 0,
+            "recordTimerMinutes": 0,
+            "recordTimerSeconds": 30,
+            "streamTimerHours": 0,
+            "streamTimerMinutes": 0,
+            "streamTimerSeconds": 30
+        }
+    },
+    "name": "DSemulator",
+    "preview_locked": false,
+    "quick_transitions": [
+        {
+            "duration": 300,
+            "hotkeys": [],
+            "id": 1,
+            "name": "Cut"
+        },
+        {
+            "duration": 300,
+            "hotkeys": [],
+            "id": 2,
+            "name": "Fade"
+        }
+    ],
+    "saved_preview_projectors": [
+        {
+            "saved_preview_projectors": 0
+        },
+        {
+            "saved_preview_projectors": 0
+        },
+        {
+            "saved_preview_projectors": 0
+        },
+        {
+            "saved_preview_projectors": 0
+        },
+        {
+            "saved_preview_projectors": 0
+        },
+        {
+            "saved_preview_projectors": 0
+        },
+        {
+            "saved_preview_projectors": 0
+        },
+        {
+            "saved_preview_projectors": 0
+        },
+        {
+            "saved_preview_projectors": 0
+        },
+        {
+            "saved_preview_projectors": 0
+        }
+    ],
+    "saved_projectors": [
+        {
+            "saved_projectors": ""
+        },
+        {
+            "saved_projectors": ""
+        },
+        {
+            "saved_projectors": ""
+        },
+        {
+            "saved_projectors": ""
+        },
+        {
+            "saved_projectors": ""
+        },
+        {
+            "saved_projectors": ""
+        },
+        {
+            "saved_projectors": ""
+        },
+        {
+            "saved_projectors": ""
+        },
+        {
+            "saved_projectors": ""
+        },
+        {
+            "saved_projectors": ""
+        }
+    ],
+    "scaling_enabled": false,
+    "scaling_level": 0,
+    "scaling_off_x": 0.0,
+    "scaling_off_y": 0.0,
+    "scene_order": [
+        {
+            "name": "Main"
+        },
+        {
+            "name": "FaceCam"
+        },
+        {
+            "name": "Main Alt"
+        },
+        {
+            "name": "FaceCam Alt"
+        }
+    ],
+    "sources": [
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [
+                    {
+                        "alt": true,
+                        "key": "OBS_KEY_4"
+                    }
+                ],
+                "libobs.hide_scene_item.Camera 01 C920": [],
+                "libobs.hide_scene_item.DS Emulator bottom screen": [],
+                "libobs.hide_scene_item.DS Emulator top screen": [],
+                "libobs.hide_scene_item.Keyboard": [],
+                "libobs.hide_scene_item.Mic": [],
+                "libobs.hide_scene_item.StreamLabs YT Notifications": [],
+                "libobs.hide_scene_item.YT Chat": [],
+                "libobs.hide_scene_item.chrome_translator": [],
+                "libobs.hide_scene_item.foobar": [],
+                "libobs.hide_scene_item.overlay NDS": [],
+                "libobs.show_scene_item.Camera 01 C920": [],
+                "libobs.show_scene_item.DS Emulator bottom screen": [],
+                "libobs.show_scene_item.DS Emulator top screen": [],
+                "libobs.show_scene_item.Keyboard": [],
+                "libobs.show_scene_item.Mic": [],
+                "libobs.show_scene_item.StreamLabs YT Notifications": [],
+                "libobs.show_scene_item.YT Chat": [],
+                "libobs.show_scene_item.chrome_translator": [],
+                "libobs.show_scene_item.foobar": [],
+                "libobs.show_scene_item.overlay NDS": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "FaceCam Alt",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "id_counter": 10,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 1,
+                        "locked": false,
+                        "name": "Mic",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 3,
+                        "locked": false,
+                        "name": "chrome_translator",
+                        "pos": {
+                            "x": 2099.8798828125,
+                            "y": 1031.447265625
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.91826921701431274,
+                            "y": 0.91826921701431274
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 4,
+                        "locked": false,
+                        "name": "overlay NDS",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 2.0,
+                            "y": 2.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 2076.0,
+                            "y": 1150.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 1,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 5,
+                        "locked": false,
+                        "name": "Keyboard",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 1010.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 6,
+                        "locked": false,
+                        "name": "DS Emulator bottom screen",
+                        "pos": {
+                            "x": 547.0,
+                            "y": 1252.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.5609375238418579,
+                            "y": 1.5604166984558105
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1021.0,
+                            "y": 873.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 2,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 7,
+                        "locked": false,
+                        "name": "DS Emulator top screen",
+                        "pos": {
+                            "x": 546.0,
+                            "y": 83.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 8,
+                        "locked": false,
+                        "name": "StreamLabs YT Notifications",
+                        "pos": {
+                            "x": 3078.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.95249998569488525,
+                            "y": 0.95333331823348999
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 9,
+                        "locked": false,
+                        "name": "YT Chat",
+                        "pos": {
+                            "x": 2098.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0903226137161255,
+                            "y": 1.0905263423919678
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 10,
+                        "locked": false,
+                        "name": "foobar",
+                        "pos": {
+                            "x": 272.0,
+                            "y": 2090.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.5219999551773071,
+                            "y": 1.52173912525177
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 2,
+                        "locked": false,
+                        "name": "Camera 01 C920",
+                        "pos": {
+                            "x": 1121.0,
+                            "y": 121.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 4.046875,
+                            "y": 4.0479168891906738
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [
+                    {
+                        "alt": true,
+                        "key": "OBS_KEY_3"
+                    }
+                ],
+                "libobs.hide_scene_item.Camera 01 C920": [],
+                "libobs.hide_scene_item.DS Emulator bottom screen": [],
+                "libobs.hide_scene_item.DS Emulator top screen": [],
+                "libobs.hide_scene_item.Keyboard": [],
+                "libobs.hide_scene_item.Mic": [],
+                "libobs.hide_scene_item.StreamLabs Twitch Chat": [],
+                "libobs.hide_scene_item.StreamLabs Twitch Notifications": [],
+                "libobs.hide_scene_item.StreamLabs YT Notifications": [],
+                "libobs.hide_scene_item.YT Chat": [],
+                "libobs.hide_scene_item.chrome_translator": [],
+                "libobs.hide_scene_item.foobar": [],
+                "libobs.hide_scene_item.overlay NDS": [],
+                "libobs.show_scene_item.Camera 01 C920": [],
+                "libobs.show_scene_item.DS Emulator bottom screen": [],
+                "libobs.show_scene_item.DS Emulator top screen": [],
+                "libobs.show_scene_item.Keyboard": [],
+                "libobs.show_scene_item.Mic": [],
+                "libobs.show_scene_item.StreamLabs Twitch Chat": [],
+                "libobs.show_scene_item.StreamLabs Twitch Notifications": [],
+                "libobs.show_scene_item.StreamLabs YT Notifications": [],
+                "libobs.show_scene_item.YT Chat": [],
+                "libobs.show_scene_item.chrome_translator": [],
+                "libobs.show_scene_item.foobar": [],
+                "libobs.show_scene_item.overlay NDS": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Main Alt",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "id_counter": 13,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 1,
+                        "locked": false,
+                        "name": "Mic",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 13,
+                        "locked": false,
+                        "name": "Camera 01 C920",
+                        "pos": {
+                            "x": 3091.0,
+                            "y": 469.447265625
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.1703125238418579,
+                            "y": 1.1708333492279053
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 3,
+                        "locked": false,
+                        "name": "chrome_translator",
+                        "pos": {
+                            "x": 2099.8798828125,
+                            "y": 1031.447265625
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.91826921701431274,
+                            "y": 0.91826921701431274
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 4,
+                        "locked": false,
+                        "name": "overlay NDS",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 2.0,
+                            "y": 2.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 2076.0,
+                            "y": 1150.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 1,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 5,
+                        "locked": false,
+                        "name": "Keyboard",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 1010.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 6,
+                        "locked": false,
+                        "name": "DS Emulator bottom screen",
+                        "pos": {
+                            "x": 547.0,
+                            "y": 1252.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.5609375238418579,
+                            "y": 1.5604166984558105
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1021.0,
+                            "y": 873.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 2,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 7,
+                        "locked": false,
+                        "name": "DS Emulator top screen",
+                        "pos": {
+                            "x": 546.0,
+                            "y": 83.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 8,
+                        "locked": false,
+                        "name": "StreamLabs YT Notifications",
+                        "pos": {
+                            "x": 3078.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.95249998569488525,
+                            "y": 0.95333331823348999
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 9,
+                        "locked": false,
+                        "name": "YT Chat",
+                        "pos": {
+                            "x": 2098.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0903226137161255,
+                            "y": 1.0905263423919678
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 12,
+                        "locked": false,
+                        "name": "foobar",
+                        "pos": {
+                            "x": 272.0,
+                            "y": 2090.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.5219999551773071,
+                            "y": 1.52173912525177
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [
+                    {
+                        "alt": true,
+                        "key": "OBS_KEY_2"
+                    }
+                ],
+                "libobs.hide_scene_item.Camera 01 C920": [],
+                "libobs.hide_scene_item.DS Emulator bottom screen": [],
+                "libobs.hide_scene_item.DS Emulator top screen": [],
+                "libobs.hide_scene_item.Keyboard": [],
+                "libobs.hide_scene_item.Mic": [],
+                "libobs.hide_scene_item.StreamLabs Twitch Chat": [],
+                "libobs.hide_scene_item.StreamLabs Twitch Notifications": [],
+                "libobs.hide_scene_item.StreamLabs YT Notifications": [],
+                "libobs.hide_scene_item.YT Chat": [],
+                "libobs.hide_scene_item.chrome_translator": [],
+                "libobs.hide_scene_item.foobar": [],
+                "libobs.hide_scene_item.overlay NDS": [],
+                "libobs.show_scene_item.Camera 01 C920": [],
+                "libobs.show_scene_item.DS Emulator bottom screen": [],
+                "libobs.show_scene_item.DS Emulator top screen": [],
+                "libobs.show_scene_item.Keyboard": [],
+                "libobs.show_scene_item.Mic": [],
+                "libobs.show_scene_item.StreamLabs Twitch Chat": [],
+                "libobs.show_scene_item.StreamLabs Twitch Notifications": [],
+                "libobs.show_scene_item.StreamLabs YT Notifications": [],
+                "libobs.show_scene_item.YT Chat": [],
+                "libobs.show_scene_item.chrome_translator": [],
+                "libobs.show_scene_item.foobar": [],
+                "libobs.show_scene_item.overlay NDS": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "FaceCam",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "id_counter": 12,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 1,
+                        "locked": false,
+                        "name": "Mic",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 2076.0,
+                            "y": 1150.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 1,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 3,
+                        "locked": false,
+                        "name": "Keyboard",
+                        "pos": {
+                            "x": 897.0,
+                            "y": 1010.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 4,
+                        "locked": false,
+                        "name": "chrome_translator",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.79843747615814209,
+                            "y": 0.79848629236221313
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 5,
+                        "locked": false,
+                        "name": "overlay NDS",
+                        "pos": {
+                            "x": 897.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 2.0,
+                            "y": 2.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 6,
+                        "locked": false,
+                        "name": "DS Emulator bottom screen",
+                        "pos": {
+                            "x": 1444.0,
+                            "y": 1248.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.5609375238418579,
+                            "y": 1.5604166984558105
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1021.0,
+                            "y": 873.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 2,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 7,
+                        "locked": false,
+                        "name": "DS Emulator top screen",
+                        "pos": {
+                            "x": 1439.0,
+                            "y": 82.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 8,
+                        "locked": false,
+                        "name": "StreamLabs YT Notifications",
+                        "pos": {
+                            "x": 135.0,
+                            "y": 915.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.95249998569488525,
+                            "y": 0.95333331823348999
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 9,
+                        "locked": false,
+                        "name": "YT Chat",
+                        "pos": {
+                            "x": 2995.0,
+                            "y": 37.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0916129350662231,
+                            "y": 1.0921052694320679
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 10,
+                        "locked": false,
+                        "name": "StreamLabs Twitch Notifications",
+                        "pos": {
+                            "x": 130.0,
+                            "y": 912.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.95875000953674316,
+                            "y": 0.95833331346511841
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 11,
+                        "locked": false,
+                        "name": "StreamLabs Twitch Chat",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 1794.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.91500002145767212,
+                            "y": 0.91500002145767212
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 12,
+                        "locked": false,
+                        "name": "foobar",
+                        "pos": {
+                            "x": 1188.0,
+                            "y": 2090.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.5219999551773071,
+                            "y": 1.52173912525177
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 2,
+                        "locked": false,
+                        "name": "Camera 01 C920",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 198.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 3.6031250953674316,
+                            "y": 3.6041667461395264
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "filters": [
+                {
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "crop_filter",
+                    "mixers": 0,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Crop/Pad",
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "top": 509
+                    },
+                    "sync": 0,
+                    "volume": 1.0
+                }
+            ],
+            "flags": 0,
+            "hotkeys": {},
+            "id": "window_capture",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "DS Emulator bottom screen",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "window": "DeSmuME 0.9.11 x64:DeSmuME:DeSmuME_0.9.11_x64.exe"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 1,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "dshow_input",
+            "mixers": 255,
+            "monitoring_type": 0,
+            "muted": true,
+            "name": "Camera 01 C920",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "last_video_device_id": "Logitech HD Pro Webcam C920:\\\\?\\usb#22vid_046d&pid_082d&mi_00#227&217de8fe&1&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\{bbefb6c7-2fc4-4139-bb8b-a58bba724083}",
+                "video_device_id": "Logitech HD Pro Webcam C920:\\\\?\\usb#22vid_046d&pid_082d&mi_00#227&217de8fe&1&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\{bbefb6c7-2fc4-4139-bb8b-a58bba724083}"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "browser_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "StreamLabs YT Notifications",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "url": "http://streamlabs.com/alert-box/v4/7B7214CD0D63C22DB701"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [
+                    {
+                        "alt": true,
+                        "key": "OBS_KEY_1"
+                    }
+                ],
+                "libobs.hide_scene_item.Camera 01 C920": [],
+                "libobs.hide_scene_item.DS Emulator bottom screen": [],
+                "libobs.hide_scene_item.DS Emulator top screen": [],
+                "libobs.hide_scene_item.Keyboard": [],
+                "libobs.hide_scene_item.Mic": [],
+                "libobs.hide_scene_item.StreamLabs Twitch Chat": [],
+                "libobs.hide_scene_item.StreamLabs Twitch Notifications": [],
+                "libobs.hide_scene_item.StreamLabs YT Notifications": [],
+                "libobs.hide_scene_item.YT Chat": [],
+                "libobs.hide_scene_item.chrome_translator": [],
+                "libobs.hide_scene_item.foobar": [],
+                "libobs.hide_scene_item.overlay NDS": [],
+                "libobs.show_scene_item.Camera 01 C920": [],
+                "libobs.show_scene_item.DS Emulator bottom screen": [],
+                "libobs.show_scene_item.DS Emulator top screen": [],
+                "libobs.show_scene_item.Keyboard": [],
+                "libobs.show_scene_item.Mic": [],
+                "libobs.show_scene_item.StreamLabs Twitch Chat": [],
+                "libobs.show_scene_item.StreamLabs Twitch Notifications": [],
+                "libobs.show_scene_item.StreamLabs YT Notifications": [],
+                "libobs.show_scene_item.YT Chat": [],
+                "libobs.show_scene_item.chrome_translator": [],
+                "libobs.show_scene_item.foobar": [],
+                "libobs.show_scene_item.overlay NDS": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Main",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "id_counter": 28,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 2,
+                        "locked": false,
+                        "name": "Mic",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 3,
+                        "locked": false,
+                        "name": "Camera 01 C920",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 1487.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.4015624523162842,
+                            "y": 1.4020832777023315
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 19,
+                        "locked": false,
+                        "name": "chrome_translator",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.93229168653488159,
+                            "y": 0.93238097429275513
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 20,
+                        "locked": false,
+                        "name": "overlay NDS",
+                        "pos": {
+                            "x": 897.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 2.0,
+                            "y": 2.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 2076.0,
+                            "y": 1150.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 1,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 1,
+                        "locked": false,
+                        "name": "Keyboard",
+                        "pos": {
+                            "x": 897.0,
+                            "y": 1010.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 27,
+                        "locked": false,
+                        "name": "DS Emulator bottom screen",
+                        "pos": {
+                            "x": 1444.0,
+                            "y": 1248.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.5609375238418579,
+                            "y": 1.5604166984558105
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1021.0,
+                            "y": 873.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 2,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 18,
+                        "locked": false,
+                        "name": "DS Emulator top screen",
+                        "pos": {
+                            "x": 1439.0,
+                            "y": 82.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 7,
+                        "locked": false,
+                        "name": "StreamLabs YT Notifications",
+                        "pos": {
+                            "x": 135.0,
+                            "y": 915.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.95249998569488525,
+                            "y": 0.95333331823348999
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 8,
+                        "locked": false,
+                        "name": "YT Chat",
+                        "pos": {
+                            "x": 2995.0,
+                            "y": 37.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0916129350662231,
+                            "y": 1.0921052694320679
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 9,
+                        "locked": false,
+                        "name": "StreamLabs Twitch Notifications",
+                        "pos": {
+                            "x": 130.0,
+                            "y": 912.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.95875000953674316,
+                            "y": 0.95833331346511841
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 10,
+                        "locked": false,
+                        "name": "StreamLabs Twitch Chat",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 1794.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.91500002145767212,
+                            "y": 0.91500002145767212
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 11,
+                        "locked": false,
+                        "name": "foobar",
+                        "pos": {
+                            "x": 1188.0,
+                            "y": 2090.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.5219999551773071,
+                            "y": 1.52173912525177
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "browser_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "StreamLabs Twitch Notifications",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "fps": 60,
+                "restart_when_active": true,
+                "shutdown": true,
+                "url": "http://streamlabs.com/alert-box/v3/03BFE67EDFC44A1E9A5E"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "browser_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "StreamLabs Twitch Chat",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "css": "body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; size=12; }",
+                "fps": 29,
+                "height": 400,
+                "url": "http://streamlabs.com/widgets/chat-box/v1/03BFE67EDFC44A1E9A5E",
+                "width": 2200
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "filters": [
+                {
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "color_key_filter",
+                    "mixers": 0,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Color Key red",
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "key_color": 255,
+                        "key_color_type": "custom",
+                        "similarity": 1000,
+                        "smoothness": 1000
+                    },
+                    "sync": 0,
+                    "volume": 1.0
+                },
+                {
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "color_key_filter",
+                    "mixers": 0,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Color Key black",
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "key_color": 0,
+                        "key_color_type": "custom"
+                    },
+                    "sync": 0,
+                    "volume": 1.0
+                }
+            ],
+            "flags": 0,
+            "hotkeys": {},
+            "id": "window_capture",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Keyboard",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "cursor": false,
+                "priority": 1,
+                "window": "NohBoard v0.3.1:WindowsForms10.Window.8.app.0.141b42a_r9_ad1:NohBoard.exe"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_gdiplus",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "foobar",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "bk_opacity": 3,
+                "chatlog": false,
+                "color": 16757504,
+                "extents": true,
+                "extents_cx": 1000,
+                "extents_cy": 45,
+                "extents_wrap": false,
+                "file": "D:/foobar/obs_title_capture.txt",
+                "font": {
+                    "face": "Arial",
+                    "flags": 1,
+                    "size": 36,
+                    "style": ""
+                },
+                "outline": false,
+                "read_from_file": true
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "browser_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "YT Chat",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "css": "@import url(\"https://fonts.googleapis.com/css?family=Changa One\");\n@import url(\"https://fonts.googleapis.com/css?family=Imprima\");\n\n/* Background colors*/\nbody {\n  background-color: rgba(0,0,0,0);\n}\n\n\nyt-live-chat-text-message-renderer[author-type=\"moderator\"] {\n  background-color: rgba(94,132,241,0.81) !important;\n}\n\nyt-live-chat-text-message-renderer[author-type=\"member\"] {\n  background-color: rgba(15,157,88,0.5) !important;\n}\n\n/* Transparent background. */\nyt-live-chat-renderer {\n  background-color: transparent !important;\n}\n\n/* Outlines */\nyt-live-chat-renderer * {\n  text-shadow: -2px -2px #000000,-2px -1px #000000,-2px 0px #000000,-2px 1px #000000,-2px 2px #000000,-1px -2px #000000,-1px -1px #000000,-1px 0px #000000,-1px 1px #000000,-1px 2px #000000,0px -2px #000000,0px -1px #000000,0px 0px #000000,0px 1px #000000,0px 2px #000000,1px -2px #000000,1px -1px #000000,1px 0px #000000,1px 1px #000000,1px 2px #000000,2px -2px #000000,2px -1px #000000,2px 0px #000000,2px 1px #000000,2px 2px #000000;\n  font-family: \"Imprima\";\n  font-size: 52px !important;\n  line-height: 52px !important;\n}\n\nyt-live-chat-text-message-renderer #content,\nyt-live-chat-legacy-paid-message-renderer #content {\n  overflow: initial; !important\n}\n\n/* Hide scrollbar. */\nyt-live-chat-item-list-renderer #items{\n  overflow: hidden !important;\n}\n\nyt-live-chat-item-list-renderer #item-scroller{\n  overflow: hidden !important;\n}\n\n/* Hide header and input. */\nyt-live-chat-header-renderer,\nyt-live-chat-message-input-renderer {\n  display: none !important;\n}\n\n/* Reduce side padding. */\nyt-live-chat-text-message-renderer,\nyt-live-chat-legacy-paid-message-renderer {\n    padding-left: 4px !important;\n  padding-right: 4px !important;\n}\n\nyt-live-chat-paid-message-renderer #header {\n    padding-left: 4px !important;\n  padding-right: 4px !important;\n}\n\n/* Avatars. */\nyt-live-chat-text-message-renderer #author-photo,\nyt-live-chat-paid-message-renderer #author-photo,\nyt-live-chat-legacy-paid-message-renderer #author-photo {\n  \n  width: 100px !important;\n  height: 100px !important;\n  border-radius: 100px !important;\n  margin-right: 12.5px !important;\n}\n\n/* Hide badges. */\nyt-live-chat-text-message-renderer #author-badges {\n  \n  vertical-align: text-top !important;\n}\n\n/* Timestamps. */\nyt-live-chat-text-message-renderer #timestamp {\n  display: inline !important;\n  color: #999999 !important;\n  font-family: \"Imprima\";\n  font-size: 44px !important;\n  line-height: 44px !important;\n}\n\n/* Badges. */\nyt-live-chat-text-message-renderer #author-name[type=\"owner\"],\nyt-live-chat-text-message-renderer yt-live-chat-author-badge-renderer[type=\"owner\"] {\n  color: #7c54ff !important;\n}\n\nyt-live-chat-text-message-renderer #author-name[type=\"moderator\"],\nyt-live-chat-text-message-renderer yt-live-chat-author-badge-renderer[type=\"moderator\"] {\n  color: #ce52fe !important;\n}\n\nyt-live-chat-text-message-renderer #author-name[type=\"member\"],\nyt-live-chat-text-message-renderer yt-live-chat-author-badge-renderer[type=\"member\"] {\n  color: #0f9d58 !important;\n}\n\n/* Channel names. */\nyt-live-chat-text-message-renderer #author-name {\n  color: #00ccff !important;\n  font-family: \"Changa One\";\n  font-size: 48px !important;\n  line-height: 48px !important;\n}\n\nyt-live-chat-text-message-renderer #author-name::after {\n  content: \":\";\n  margin-left: 2px;\n}\n\n/* Messages. */\nyt-live-chat-text-message-renderer #message,\nyt-live-chat-text-message-renderer #message * {\n  color: #ffffff !important;\n  font-family: \"Imprima\";\n  font-size: 52px !important;\n  line-height: 52px !important;\n}\n\nyt-live-chat-text-message-renderer #message {\n  display: block !important;\n}\n\n/* SuperChat/Fan Funding Messages. */\nyt-live-chat-paid-message-renderer #author-name,\nyt-live-chat-paid-message-renderer #author-name *,\nyt-live-chat-legacy-paid-message-renderer #event-text,\nyt-live-chat-legacy-paid-message-renderer #event-text * {\n  color: #ffffff !important;\n  font-family: \"Changa One\";\n  font-size: 20px !important;\n  line-height: 20px !important;\n}\n\nyt-live-chat-paid-message-renderer #purchase-amount,\nyt-live-chat-paid-message-renderer #purchase-amount *,\nyt-live-chat-legacy-paid-message-renderer #detail-text,\nyt-live-chat-legacy-paid-message-renderer #detail-text * {\n  color: #ffffff !important;\n  font-family: \"Imprima\";\n  font-size: 18px !important;\n  line-height: 18px !important;\n}\n\nyt-live-chat-paid-message-renderer #content,\nyt-live-chat-paid-message-renderer #content * {\n  color: #ffffff !important;\n  font-family: \"Imprima\";\n  font-size: 18px !important;\n  line-height: 18px !important;\n}\n\nyt-live-chat-paid-message-renderer {\n  margin: 4px 0 !important;\n}\n\nyt-live-chat-legacy-paid-message-renderer {\n  background-color: #0f9d58 !important;\n  margin: 4px 0 !important;\n}\n\nyt-live-chat-text-message-renderer a,\nyt-live-chat-legacy-paid-message-renderer a {\n  text-decoration: none !important;\n}\n\nyt-live-chat-text-message-renderer[is-deleted],\nyt-live-chat-legacy-paid-message-renderer[is-deleted] {\n  display: none !important;\n}\n\nyt-live-chat-ticker-renderer {\n  background-color: transparent !important;\n  box-shadow: none !important;\n}\nyt-live-chat-ticker-renderer {\n  display: none !important;\n}\n\n\nyt-live-chat-ticker-paid-message-item-renderer,\nyt-live-chat-ticker-paid-message-item-renderer *,\nyt-live-chat-ticker-sponsor-item-renderer,\nyt-live-chat-ticker-sponsor-item-renderer * {\n  color: #ffffff !important;\n  font-family: \"Imprima\";\n}",
+                "height": 950,
+                "url": "https://www.youtube.com/live_chat?v=2FutghdL0gM&is_popout=1",
+                "width": 900
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "wasapi_input_capture",
+            "mixers": 255,
+            "monitoring_type": 0,
+            "muted": true,
+            "name": "Mic",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "device_id": "default",
+                "use_device_timing": false
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "filters": [
+                {
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "crop_filter",
+                    "mixers": 0,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Crop/Pad",
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "bottom": 480,
+                        "top": 48
+                    },
+                    "sync": 0,
+                    "volume": 1.0
+                }
+            ],
+            "flags": 0,
+            "hotkeys": {},
+            "id": "window_capture",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "DS Emulator top screen",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "window": "DeSmuME 0.9.11 x64:DeSmuME:DeSmuME_0.9.11_x64.exe"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "window_capture",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "chrome_translator",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "priority": 1,
+                "window": "Google Translate - Google Chrome:Chrome_WidgetWin_1:chrome.exe"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "filters": [
+                {
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "crop_filter",
+                    "mixers": 0,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Crop/Pad",
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "left": 436,
+                        "right": 435
+                    },
+                    "sync": 0,
+                    "volume": 1.0
+                }
+            ],
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "overlay NDS",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "D:/Recorded Videos/OBS/StreamAssets/overlay_NDS.jpg"
+            },
+            "sync": 0,
+            "volume": 1.0
+        }
+    ],
+    "transition_duration": 450,
+    "transitions": []
+}

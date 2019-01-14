@@ -1,0 +1,1139 @@
+{
+    "AuxAudioDevice1": {
+        "deinterlace_field_order": 0,
+        "deinterlace_mode": 0,
+        "enabled": true,
+        "flags": 0,
+        "hotkeys": {
+            "libobs.mute": [],
+            "libobs.push-to-mute": [],
+            "libobs.push-to-talk": [],
+            "libobs.unmute": []
+        },
+        "id": "wasapi_input_capture",
+        "mixers": 255,
+        "monitoring_type": 0,
+        "muted": false,
+        "name": "Mic/Aux",
+        "private_settings": {},
+        "push-to-mute": false,
+        "push-to-mute-delay": 0,
+        "push-to-talk": false,
+        "push-to-talk-delay": 0,
+        "settings": {
+            "device_id": "{0.0.1.00000000}.{95b89ff6-998a-4ac0-9370-090015f53c06}"
+        },
+        "sync": 0,
+        "volume": 1.0
+    },
+    "DesktopAudioDevice1": {
+        "deinterlace_field_order": 0,
+        "deinterlace_mode": 0,
+        "enabled": true,
+        "flags": 0,
+        "hotkeys": {
+            "libobs.mute": [],
+            "libobs.push-to-mute": [],
+            "libobs.push-to-talk": [],
+            "libobs.unmute": []
+        },
+        "id": "wasapi_output_capture",
+        "mixers": 255,
+        "monitoring_type": 0,
+        "muted": false,
+        "name": "Desktop Audio",
+        "private_settings": {},
+        "push-to-mute": false,
+        "push-to-mute-delay": 0,
+        "push-to-talk": false,
+        "push-to-talk-delay": 0,
+        "settings": {
+            "device_id": "{0.0.0.00000000}.{6f541508-e3b6-447a-95f3-a4454a4a08fb}"
+        },
+        "sync": 0,
+        "volume": 0.20537896454334259
+    },
+    "current_program_scene": "FaceCam",
+    "current_scene": "FaceCam",
+    "current_transition": "Fade",
+    "modules": {
+        "auto-scene-switcher": {
+            "active": false,
+            "interval": 300,
+            "non_matching_scene": "",
+            "switch_if_not_matching": false,
+            "switches": []
+        },
+        "captions": {
+            "enabled": false,
+            "lang_id": 1033,
+            "provider": "mssapi",
+            "source": ""
+        },
+        "output-timer": {
+            "autoStartRecordTimer": false,
+            "autoStartStreamTimer": false,
+            "recordTimerHours": 0,
+            "recordTimerMinutes": 0,
+            "recordTimerSeconds": 30,
+            "streamTimerHours": 0,
+            "streamTimerMinutes": 0,
+            "streamTimerSeconds": 30
+        },
+        "scripts-tool": []
+    },
+    "name": "Fighters - YT chat",
+    "preview_locked": false,
+    "quick_transitions": [
+        {
+            "duration": 300,
+            "hotkeys": [],
+            "id": 1,
+            "name": "Cut"
+        },
+        {
+            "duration": 300,
+            "hotkeys": [],
+            "id": 2,
+            "name": "Fade"
+        }
+    ],
+    "saved_multiview_projectors": [
+        {
+            "saved_multiview_projectors": 0
+        },
+        {
+            "saved_multiview_projectors": 0
+        },
+        {
+            "saved_multiview_projectors": 0
+        },
+        {
+            "saved_multiview_projectors": 0
+        },
+        {
+            "saved_multiview_projectors": 0
+        },
+        {
+            "saved_multiview_projectors": 0
+        },
+        {
+            "saved_multiview_projectors": 0
+        },
+        {
+            "saved_multiview_projectors": 0
+        },
+        {
+            "saved_multiview_projectors": 0
+        },
+        {
+            "saved_multiview_projectors": 0
+        }
+    ],
+    "saved_preview_projectors": [
+        {
+            "saved_preview_projectors": 0
+        },
+        {
+            "saved_preview_projectors": 0
+        },
+        {
+            "saved_preview_projectors": 0
+        },
+        {
+            "saved_preview_projectors": 0
+        },
+        {
+            "saved_preview_projectors": 0
+        },
+        {
+            "saved_preview_projectors": 0
+        },
+        {
+            "saved_preview_projectors": 0
+        },
+        {
+            "saved_preview_projectors": 0
+        },
+        {
+            "saved_preview_projectors": 0
+        },
+        {
+            "saved_preview_projectors": 0
+        }
+    ],
+    "saved_projectors": [
+        {
+            "saved_projectors": ""
+        },
+        {
+            "saved_projectors": ""
+        },
+        {
+            "saved_projectors": ""
+        },
+        {
+            "saved_projectors": ""
+        },
+        {
+            "saved_projectors": ""
+        },
+        {
+            "saved_projectors": ""
+        },
+        {
+            "saved_projectors": ""
+        },
+        {
+            "saved_projectors": ""
+        },
+        {
+            "saved_projectors": ""
+        },
+        {
+            "saved_projectors": ""
+        }
+    ],
+    "saved_studio_preview_projectors": [
+        {
+            "saved_studio_preview_projectors": 0
+        },
+        {
+            "saved_studio_preview_projectors": 0
+        },
+        {
+            "saved_studio_preview_projectors": 0
+        },
+        {
+            "saved_studio_preview_projectors": 0
+        },
+        {
+            "saved_studio_preview_projectors": 0
+        },
+        {
+            "saved_studio_preview_projectors": 0
+        },
+        {
+            "saved_studio_preview_projectors": 0
+        },
+        {
+            "saved_studio_preview_projectors": 0
+        },
+        {
+            "saved_studio_preview_projectors": 0
+        },
+        {
+            "saved_studio_preview_projectors": 0
+        }
+    ],
+    "scaling_enabled": false,
+    "scaling_level": 0,
+    "scaling_off_x": 0.0,
+    "scaling_off_y": 0.0,
+    "scene_order": [
+        {
+            "name": "Main"
+        },
+        {
+            "name": "FaceCam"
+        }
+    ],
+    "sources": [
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 1,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "dshow_input",
+            "mixers": 255,
+            "monitoring_type": 0,
+            "muted": true,
+            "name": "Camera 01 C920",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "last_video_device_id": "Logitech HD Pro Webcam C920:\\\\?\\usb#22vid_046d&pid_082d&mi_00#227&217de8fe&1&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\{bbefb6c7-2fc4-4139-bb8b-a58bba724083}",
+                "video_device_id": "Logitech HD Pro Webcam C920:\\\\?\\usb#22vid_046d&pid_082d&mi_00#227&217de8fe&1&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\{bbefb6c7-2fc4-4139-bb8b-a58bba724083}"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "browser_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "StreamLabs YT Notifications",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "url": "http://streamlabs.com/alert-box/v4/7B7214CD0D63C22DB701"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [
+                    {
+                        "alt": true,
+                        "key": "OBS_KEY_1"
+                    }
+                ],
+                "libobs.hide_scene_item.Camera 01 C920": [],
+                "libobs.hide_scene_item.Keyboard": [],
+                "libobs.hide_scene_item.Mic": [],
+                "libobs.hide_scene_item.Revelator": [],
+                "libobs.hide_scene_item.StreamLabs Twitch Chat": [],
+                "libobs.hide_scene_item.StreamLabs Twitch Notifications": [],
+                "libobs.hide_scene_item.StreamLabs YT Notifications": [],
+                "libobs.hide_scene_item.YT Chat": [],
+                "libobs.hide_scene_item.foobar": [],
+                "libobs.show_scene_item.Camera 01 C920": [],
+                "libobs.show_scene_item.Keyboard": [],
+                "libobs.show_scene_item.Mic": [],
+                "libobs.show_scene_item.Revelator": [],
+                "libobs.show_scene_item.StreamLabs Twitch Chat": [],
+                "libobs.show_scene_item.StreamLabs Twitch Notifications": [],
+                "libobs.show_scene_item.StreamLabs YT Notifications": [],
+                "libobs.show_scene_item.YT Chat": [],
+                "libobs.show_scene_item.foobar": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Main",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "id_counter": 40,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 2,
+                        "locked": false,
+                        "name": "Mic",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 3,
+                        "locked": false,
+                        "name": "Camera 01 C920",
+                        "pos": {
+                            "x": 3109.0,
+                            "y": 1612.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.1421874761581421,
+                            "y": 1.1416666507720947
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 1,
+                        "locked": false,
+                        "name": "Keyboard",
+                        "pos": {
+                            "x": 2224.164794921875,
+                            "y": 1813.6201171875
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 5.0274724960327148,
+                            "y": 5.0199999809265137
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 5,
+                        "locked": false,
+                        "name": "Revelator",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.6609375476837158,
+                            "y": 1.6611111164093018
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 8,
+                        "locked": false,
+                        "name": "YT Chat",
+                        "pos": {
+                            "x": 3206.0,
+                            "y": 58.0714111328125
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.81806451082229614,
+                            "y": 0.81785714626312256
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 7,
+                        "locked": false,
+                        "name": "StreamLabs YT Notifications",
+                        "pos": {
+                            "x": 1462.164794921875,
+                            "y": 1588.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.95249998569488525,
+                            "y": 0.95333331823348999
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 9,
+                        "locked": false,
+                        "name": "StreamLabs Twitch Notifications",
+                        "pos": {
+                            "x": 1457.164794921875,
+                            "y": 1585.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.95875000953674316,
+                            "y": 0.95833331346511841
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 10,
+                        "locked": false,
+                        "name": "StreamLabs Twitch Chat",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 1794.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.91500002145767212,
+                            "y": 0.91500002145767212
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 11,
+                        "locked": false,
+                        "name": "foobar",
+                        "pos": {
+                            "x": 1496.0,
+                            "y": 2111.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0729999542236328,
+                            "y": 1.0652173757553101
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "hotkey_start": [],
+                "hotkey_stop": []
+            },
+            "id": "game_capture",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Revelator",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "capture_mode": "window",
+                "priority": 2,
+                "window": "Guilty Gear Xrd -REVELATOR-:LaunchUnrealUWindowsClient:GuiltyGearXrd.exe"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "browser_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "StreamLabs Twitch Notifications",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "fps": 60,
+                "restart_when_active": true,
+                "shutdown": true,
+                "url": "http://streamlabs.com/alert-box/v3/03BFE67EDFC44A1E9A5E"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "browser_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "StreamLabs Twitch Chat",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "css": "body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; size=12; }",
+                "fps": 29,
+                "height": 400,
+                "url": "http://streamlabs.com/widgets/chat-box/v1/03BFE67EDFC44A1E9A5E",
+                "width": 2200
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "filters": [
+                {
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": false,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "color_key_filter",
+                    "mixers": 0,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Green",
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "key_color": 0,
+                        "key_color_type": "custom",
+                        "similarity": 634,
+                        "smoothness": 122
+                    },
+                    "sync": 0,
+                    "volume": 1.0
+                },
+                {
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": false,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "crop_filter",
+                    "mixers": 0,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Crop/Pad",
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "bottom": 25,
+                        "right": 65
+                    },
+                    "sync": 0,
+                    "volume": 1.0
+                }
+            ],
+            "flags": 0,
+            "hotkeys": {},
+            "id": "window_capture",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Keyboard",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "cursor": false,
+                "priority": 1,
+                "window": "NohBoard v1.0.0:WindowsForms10.Window.8.app.0.141b42a_r9_ad1:NohBoard.exe"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_gdiplus",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "foobar",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "bk_opacity": 3,
+                "chatlog": false,
+                "color": 16757504,
+                "extents": true,
+                "extents_cx": 1000,
+                "extents_cy": 45,
+                "extents_wrap": false,
+                "file": "D:/foobar/obs_title_capture.txt",
+                "font": {
+                    "face": "Arial",
+                    "flags": 1,
+                    "size": 36,
+                    "style": ""
+                },
+                "outline": false,
+                "read_from_file": true
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "browser_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "YT Chat",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "css": "@import url(\"https://fonts.googleapis.com/css?family=Changa One\");\n@import url(\"https://fonts.googleapis.com/css?family=Imprima\");\n\n/* Background colors*/\nbody {\n  background-color: rgba(0,0,0,0);\n}\n\n\nyt-live-chat-text-message-renderer[author-type=\"moderator\"] {\n  background-color: rgba(94,132,241,0.81) !important;\n}\n\nyt-live-chat-text-message-renderer[author-type=\"member\"] {\n  background-color: rgba(15,157,88,0.5) !important;\n}\n\n/* Transparent background. */\nyt-live-chat-renderer {\n  background-color: transparent !important;\n}\n\n/* Outlines */\nyt-live-chat-renderer * {\n  text-shadow: -2px -2px #000000,-2px -1px #000000,-2px 0px #000000,-2px 1px #000000,-2px 2px #000000,-1px -2px #000000,-1px -1px #000000,-1px 0px #000000,-1px 1px #000000,-1px 2px #000000,0px -2px #000000,0px -1px #000000,0px 0px #000000,0px 1px #000000,0px 2px #000000,1px -2px #000000,1px -1px #000000,1px 0px #000000,1px 1px #000000,1px 2px #000000,2px -2px #000000,2px -1px #000000,2px 0px #000000,2px 1px #000000,2px 2px #000000;\n  font-family: \"Imprima\";\n  font-size: 52px !important;\n  line-height: 52px !important;\n}\n\nyt-live-chat-text-message-renderer #content,\nyt-live-chat-legacy-paid-message-renderer #content {\n  overflow: initial; !important\n}\n\n/* Hide scrollbar. */\nyt-live-chat-item-list-renderer #items{\n  overflow: hidden !important;\n}\n\nyt-live-chat-item-list-renderer #item-scroller{\n  overflow: hidden !important;\n}\n\n/* Hide header and input. */\nyt-live-chat-header-renderer,\nyt-live-chat-message-input-renderer {\n  display: none !important;\n}\n\n/* Reduce side padding. */\nyt-live-chat-text-message-renderer,\nyt-live-chat-legacy-paid-message-renderer {\n    padding-left: 4px !important;\n  padding-right: 4px !important;\n}\n\nyt-live-chat-paid-message-renderer #header {\n    padding-left: 4px !important;\n  padding-right: 4px !important;\n}\n\n/* Avatars. */\nyt-live-chat-text-message-renderer #author-photo,\nyt-live-chat-paid-message-renderer #author-photo,\nyt-live-chat-legacy-paid-message-renderer #author-photo {\n  \n  width: 100px !important;\n  height: 100px !important;\n  border-radius: 100px !important;\n  margin-right: 12.5px !important;\n}\n\n/* Hide badges. */\nyt-live-chat-text-message-renderer #author-badges {\n  \n  vertical-align: text-top !important;\n}\n\n/* Timestamps. */\nyt-live-chat-text-message-renderer #timestamp {\n  display: inline !important;\n  color: #999999 !important;\n  font-family: \"Imprima\";\n  font-size: 44px !important;\n  line-height: 44px !important;\n}\n\n/* Badges. */\nyt-live-chat-text-message-renderer #author-name[type=\"owner\"],\nyt-live-chat-text-message-renderer yt-live-chat-author-badge-renderer[type=\"owner\"] {\n  color: #7c54ff !important;\n}\n\nyt-live-chat-text-message-renderer #author-name[type=\"moderator\"],\nyt-live-chat-text-message-renderer yt-live-chat-author-badge-renderer[type=\"moderator\"] {\n  color: #ce52fe !important;\n}\n\nyt-live-chat-text-message-renderer #author-name[type=\"member\"],\nyt-live-chat-text-message-renderer yt-live-chat-author-badge-renderer[type=\"member\"] {\n  color: #0f9d58 !important;\n}\n\n/* Channel names. */\nyt-live-chat-text-message-renderer #author-name {\n  color: #00ccff !important;\n  font-family: \"Changa One\";\n  font-size: 48px !important;\n  line-height: 48px !important;\n}\n\nyt-live-chat-text-message-renderer #author-name::after {\n  content: \":\";\n  margin-left: 2px;\n}\n\n/* Messages. */\nyt-live-chat-text-message-renderer #message,\nyt-live-chat-text-message-renderer #message * {\n  color: #ffffff !important;\n  font-family: \"Imprima\";\n  font-size: 52px !important;\n  line-height: 52px !important;\n}\n\nyt-live-chat-text-message-renderer #message {\n  display: block !important;\n}\n\n/* SuperChat/Fan Funding Messages. */\nyt-live-chat-paid-message-renderer #author-name,\nyt-live-chat-paid-message-renderer #author-name *,\nyt-live-chat-legacy-paid-message-renderer #event-text,\nyt-live-chat-legacy-paid-message-renderer #event-text * {\n  color: #ffffff !important;\n  font-family: \"Changa One\";\n  font-size: 20px !important;\n  line-height: 20px !important;\n}\n\nyt-live-chat-paid-message-renderer #purchase-amount,\nyt-live-chat-paid-message-renderer #purchase-amount *,\nyt-live-chat-legacy-paid-message-renderer #detail-text,\nyt-live-chat-legacy-paid-message-renderer #detail-text * {\n  color: #ffffff !important;\n  font-family: \"Imprima\";\n  font-size: 18px !important;\n  line-height: 18px !important;\n}\n\nyt-live-chat-paid-message-renderer #content,\nyt-live-chat-paid-message-renderer #content * {\n  color: #ffffff !important;\n  font-family: \"Imprima\";\n  font-size: 18px !important;\n  line-height: 18px !important;\n}\n\nyt-live-chat-paid-message-renderer {\n  margin: 4px 0 !important;\n}\n\nyt-live-chat-legacy-paid-message-renderer {\n  background-color: #0f9d58 !important;\n  margin: 4px 0 !important;\n}\n\nyt-live-chat-text-message-renderer a,\nyt-live-chat-legacy-paid-message-renderer a {\n  text-decoration: none !important;\n}\n\nyt-live-chat-text-message-renderer[is-deleted],\nyt-live-chat-legacy-paid-message-renderer[is-deleted] {\n  display: none !important;\n}\n\nyt-live-chat-ticker-renderer {\n  background-color: transparent !important;\n  box-shadow: none !important;\n}\nyt-live-chat-ticker-renderer {\n  display: none !important;\n}\n\n\nyt-live-chat-ticker-paid-message-item-renderer,\nyt-live-chat-ticker-paid-message-item-renderer *,\nyt-live-chat-ticker-sponsor-item-renderer,\nyt-live-chat-ticker-sponsor-item-renderer * {\n  color: #ffffff !important;\n  font-family: \"Imprima\";\n}",
+                "height": 1900,
+                "url": "https://www.youtube.com/live_chat?v=2FutghdL0gM&is_popout=1",
+                "width": 775
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [
+                    {
+                        "alt": true,
+                        "key": "OBS_KEY_2"
+                    }
+                ],
+                "libobs.hide_scene_item.Camera 01 C920": [],
+                "libobs.hide_scene_item.Keyboard": [],
+                "libobs.hide_scene_item.Mic": [],
+                "libobs.hide_scene_item.Revelator": [],
+                "libobs.hide_scene_item.StreamLabs Twitch Chat": [],
+                "libobs.hide_scene_item.StreamLabs Twitch Notifications": [],
+                "libobs.hide_scene_item.StreamLabs YT Notifications": [],
+                "libobs.hide_scene_item.YT Chat": [],
+                "libobs.hide_scene_item.foobar": [],
+                "libobs.show_scene_item.Camera 01 C920": [],
+                "libobs.show_scene_item.Keyboard": [],
+                "libobs.show_scene_item.Mic": [],
+                "libobs.show_scene_item.Revelator": [],
+                "libobs.show_scene_item.StreamLabs Twitch Chat": [],
+                "libobs.show_scene_item.StreamLabs Twitch Notifications": [],
+                "libobs.show_scene_item.StreamLabs YT Notifications": [],
+                "libobs.show_scene_item.YT Chat": [],
+                "libobs.show_scene_item.foobar": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "FaceCam",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "id_counter": 16,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 1,
+                        "locked": false,
+                        "name": "Keyboard",
+                        "pos": {
+                            "x": 2423.0,
+                            "y": 1794.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 5.0274724960327148,
+                            "y": 5.0199999809265137
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 2,
+                        "locked": false,
+                        "name": "Mic",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 3,
+                        "locked": false,
+                        "name": "Camera 01 C920",
+                        "pos": {
+                            "x": 474.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 3.8093750476837158,
+                            "y": 3.8104166984558105
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 5,
+                        "locked": false,
+                        "name": "Revelator",
+                        "pos": {
+                            "x": 2808.0,
+                            "y": 1579.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.53750002384185791,
+                            "y": 0.53796297311782837
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 7,
+                        "locked": false,
+                        "name": "StreamLabs YT Notifications",
+                        "pos": {
+                            "x": 2315.0,
+                            "y": 1588.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.95249998569488525,
+                            "y": 0.95333331823348999
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 8,
+                        "locked": false,
+                        "name": "YT Chat",
+                        "pos": {
+                            "x": 3207.83935546875,
+                            "y": 283.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.81569117307662964,
+                            "y": 0.81562501192092896
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 9,
+                        "locked": false,
+                        "name": "StreamLabs Twitch Notifications",
+                        "pos": {
+                            "x": 2310.0,
+                            "y": 1585.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.95875000953674316,
+                            "y": 0.95833331346511841
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 10,
+                        "locked": false,
+                        "name": "StreamLabs Twitch Chat",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 1798.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.90499997138977051,
+                            "y": 0.90499997138977051
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 11,
+                        "locked": false,
+                        "name": "foobar",
+                        "pos": {
+                            "x": 2005.0,
+                            "y": 2112.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0729999542236328,
+                            "y": 1.0652173757553101
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "wasapi_input_capture",
+            "mixers": 255,
+            "monitoring_type": 0,
+            "muted": true,
+            "name": "Mic",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "device_id": "{0.0.1.00000000}.{95b89ff6-998a-4ac0-9370-090015f53c06}",
+                "use_device_timing": false
+            },
+            "sync": 0,
+            "volume": 1.0
+        }
+    ],
+    "transition_duration": 450,
+    "transitions": []
+}
