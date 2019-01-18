@@ -1,3 +1,21 @@
-crosswise heel
-cS fS kMappa RC 5H j[KSHD j[PKD]]
+Anywhere
+118: CH 2H 6H kMappa
 
+Midscreen Only
+133: cS fS j[D 2K D]
+105: cS fS cS 2D
+
+Corner Only
+177: IAD j[SK] 2PSH 5K j[K 2K K j[SHD 2K PD]]
+193: IAD j[H] 2PSH 5K j[K 2K K j[SHD 2K PD]]
+
+Crosswise Heel
+199: cS fS kMappa RC kCross 5H j[KSHD j[PKD]]
+215: 5H kMappa RC kCWH 5H j[KSHD j[PKD]]
+
+DP punish midscreen
+215: 6 + crosswise heel combo
+
+DP punish corner
+236: 6 5H kMappa RC 5D 5H5H kPB 5H 2D
+252: 6 5H pPile RC kPile 5D 5H5H kPB 5H 2D
