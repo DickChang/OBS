@@ -1,7 +1,8 @@
 {
-    "current_program_scene": "Main: Camera Left",
-    "current_scene": "Main: Camera Left",
+    "current_program_scene": "Browser",
+    "current_scene": "Browser",
     "current_transition": "Fade",
+    "groups": [],
     "modules": {
         "auto-scene-switcher": {
             "active": false,
@@ -44,139 +45,15 @@
             "name": "Fade"
         }
     ],
-    "saved_multiview_projectors": [
-        {
-            "saved_multiview_projectors": 0
-        },
-        {
-            "saved_multiview_projectors": 0
-        },
-        {
-            "saved_multiview_projectors": 0
-        },
-        {
-            "saved_multiview_projectors": 0
-        },
-        {
-            "saved_multiview_projectors": 0
-        },
-        {
-            "saved_multiview_projectors": 0
-        },
-        {
-            "saved_multiview_projectors": 0
-        },
-        {
-            "saved_multiview_projectors": 0
-        },
-        {
-            "saved_multiview_projectors": 0
-        },
-        {
-            "saved_multiview_projectors": 0
-        }
-    ],
-    "saved_preview_projectors": [
-        {
-            "saved_preview_projectors": 0
-        },
-        {
-            "saved_preview_projectors": 0
-        },
-        {
-            "saved_preview_projectors": 0
-        },
-        {
-            "saved_preview_projectors": 0
-        },
-        {
-            "saved_preview_projectors": 0
-        },
-        {
-            "saved_preview_projectors": 0
-        },
-        {
-            "saved_preview_projectors": 0
-        },
-        {
-            "saved_preview_projectors": 0
-        },
-        {
-            "saved_preview_projectors": 0
-        },
-        {
-            "saved_preview_projectors": 0
-        }
-    ],
-    "saved_projectors": [
-        {
-            "saved_projectors": ""
-        },
-        {
-            "saved_projectors": ""
-        },
-        {
-            "saved_projectors": ""
-        },
-        {
-            "saved_projectors": ""
-        },
-        {
-            "saved_projectors": ""
-        },
-        {
-            "saved_projectors": ""
-        },
-        {
-            "saved_projectors": ""
-        },
-        {
-            "saved_projectors": ""
-        },
-        {
-            "saved_projectors": ""
-        },
-        {
-            "saved_projectors": ""
-        }
-    ],
-    "saved_studio_preview_projectors": [
-        {
-            "saved_studio_preview_projectors": 0
-        },
-        {
-            "saved_studio_preview_projectors": 0
-        },
-        {
-            "saved_studio_preview_projectors": 0
-        },
-        {
-            "saved_studio_preview_projectors": 0
-        },
-        {
-            "saved_studio_preview_projectors": 0
-        },
-        {
-            "saved_studio_preview_projectors": 0
-        },
-        {
-            "saved_studio_preview_projectors": 0
-        },
-        {
-            "saved_studio_preview_projectors": 0
-        },
-        {
-            "saved_studio_preview_projectors": 0
-        },
-        {
-            "saved_studio_preview_projectors": 0
-        }
-    ],
+    "saved_projectors": [],
     "scaling_enabled": false,
     "scaling_level": 0,
     "scaling_off_x": 0.0,
     "scaling_off_y": 0.0,
     "scene_order": [
+        {
+            "name": "Browser"
+        },
         {
             "name": "Main: Camera Left"
         },
@@ -195,27 +72,233 @@
             "deinterlace_field_order": 0,
             "deinterlace_mode": 0,
             "enabled": true,
+            "filters": [
+                {
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "crop_filter",
+                    "mixers": 0,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Crop/Pad",
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "bottom": 45
+                    },
+                    "sync": 0,
+                    "volume": 1.0
+                }
+            ],
+            "flags": 0,
+            "hotkeys": {},
+            "id": "monitor_capture",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Primary Display",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {},
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "hotkey_start": [],
+                "hotkey_stop": []
+            },
+            "id": "game_capture",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Fortnite",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "capture_mode": "window",
+                "window": "Fortnite  :UnrealWindow:FortniteClient-Win64-Shipping.exe"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "wasapi_output_capture",
+            "mixers": 255,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Audio Desktop",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "device_id": "default",
+                "use_device_timing": true
+            },
+            "sync": 0,
+            "volume": 0.5
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "hotkey_start": [],
+                "hotkey_stop": []
+            },
+            "id": "game_capture",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Guilty Gear",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "capture_mode": "window",
+                "window": "Guilty Gear Xrd -REVELATOR-:LaunchUnrealUWindowsClient:GuiltyGearXrd.exe"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "wasapi_input_capture",
+            "mixers": 255,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Audio Mic Main",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "device_id": "{0.0.1.00000000}.{99c827d9-8ca5-4f57-b777-83377429ca8c}",
+                "use_device_timing": true
+            },
+            "sync": 0,
+            "volume": 0.49303889274597168
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "browser_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Chat Youtube",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "css": "body {\n\tbackground-color: rgba(0, 0, 0, 0);\n\toverflow: hidden;\n\tvertical-align: bottom;\n}",
+                "height": 900,
+                "url": "https://streamlabs.com/widgets/chat-box/v1/7B7214CD0D63C22DB701",
+                "width": 475
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "MediaSource.Restart": [],
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "ffmpeg_source",
+            "mixers": 255,
+            "monitoring_type": 0,
+            "muted": true,
+            "name": "Background: Neon City",
+            "private_settings": {
+                "mixer_hidden": true
+            },
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "local_file": "C:/Users/DickC/AppData/Roaming/slobs-client/Overlays/84418ece-85c3-4c13-89a7-9065c61427d6/53.webm",
+                "looping": true
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
             "flags": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [
                     {
                         "alt": true,
-                        "key": "OBS_KEY_2"
+                        "key": "OBS_KEY_4"
                     }
                 ],
                 "libobs.hide_scene_item.Audio Desktop": [],
                 "libobs.hide_scene_item.Audio Mic Main": [],
-                "libobs.hide_scene_item.Fortnite": [],
-                "libobs.hide_scene_item.Guilty Gear": [],
-                "libobs.hide_scene_item.Key Display": [],
+                "libobs.hide_scene_item.Background: Starry Night": [],
+                "libobs.hide_scene_item.Chat Youtube": [],
                 "libobs.hide_scene_item.Notifications": [],
                 "libobs.hide_scene_item.Webcam Main": [],
                 "libobs.hide_scene_item.Webcam Main Frame": [],
                 "libobs.show_scene_item.Audio Desktop": [],
                 "libobs.show_scene_item.Audio Mic Main": [],
-                "libobs.show_scene_item.Fortnite": [],
-                "libobs.show_scene_item.Guilty Gear": [],
-                "libobs.show_scene_item.Key Display": [],
+                "libobs.show_scene_item.Background: Starry Night": [],
+                "libobs.show_scene_item.Chat Youtube": [],
                 "libobs.show_scene_item.Notifications": [],
                 "libobs.show_scene_item.Webcam Main": [],
                 "libobs.show_scene_item.Webcam Main Frame": []
@@ -224,14 +307,15 @@
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Main: Camera Bottom",
+            "name": "Webcam: Starry Rain",
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "id_counter": 8,
+                "custom_size": false,
+                "id_counter": 7,
                 "items": [
                     {
                         "align": 5,
@@ -245,39 +329,12 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
+                        "group_item_backup": false,
                         "id": 1,
                         "locked": false,
-                        "name": "Fortnite",
+                        "name": "Background: Starry Night",
                         "pos": {
                             "x": 0.0,
-                            "y": 0.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 3840.0,
-                            "y": 2160.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 2,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "id": 2,
-                        "locked": false,
-                        "name": "Guilty Gear",
-                        "pos": {
-                            "x": 2.4545459747314453,
                             "y": 0.0
                         },
                         "private_settings": {},
@@ -301,18 +358,19 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
-                        "id": 3,
+                        "group_item_backup": false,
+                        "id": 2,
                         "locked": false,
                         "name": "Webcam Main",
                         "pos": {
-                            "x": 1471.0,
-                            "y": 1710.0
+                            "x": 1366.0,
+                            "y": 711.0
                         },
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.76718747615814209,
-                            "y": 0.76666665077209473
+                            "x": 2.33203125,
+                            "y": 2.3315973281860352
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -329,18 +387,19 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
-                        "id": 4,
+                        "group_item_backup": false,
+                        "id": 3,
                         "locked": false,
                         "name": "Webcam Main Frame",
                         "pos": {
-                            "x": 1399.0,
-                            "y": 1631.0
+                            "x": 1161.0,
+                            "y": 488.0
                         },
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 1.4484848976135254,
-                            "y": 1.4490290880203247
+                            "x": 4.3409090042114258,
+                            "y": 4.3398056030273438
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -357,18 +416,19 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
+                        "group_item_backup": false,
                         "id": 5,
                         "locked": false,
-                        "name": "Key Display",
+                        "name": "Chat Youtube",
                         "pos": {
-                            "x": 1033.0,
-                            "y": 1990.0
+                            "x": 0.0,
+                            "y": 0.0
                         },
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 2.4545454978942871,
-                            "y": 2.4637680053710938
+                            "x": 2.4000000953674316,
+                            "y": 2.4000000953674316
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -385,12 +445,13 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
-                        "id": 6,
+                        "group_item_backup": false,
+                        "id": 4,
                         "locked": false,
                         "name": "Notifications",
                         "pos": {
-                            "x": 1362.5,
-                            "y": 1279.0
+                            "x": 2575.5,
+                            "y": 707.0
                         },
                         "private_settings": {},
                         "rot": 0.0,
@@ -413,6 +474,7 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
+                        "group_item_backup": false,
                         "id": 7,
                         "locked": false,
                         "name": "Audio Desktop",
@@ -441,7 +503,713 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 6,
+                        "locked": false,
+                        "name": "Audio Mic Main",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "MediaSource.Restart": [],
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "ffmpeg_source",
+            "mixers": 255,
+            "monitoring_type": 0,
+            "muted": true,
+            "name": "Background: Starry Night",
+            "private_settings": {
+                "mixer_hidden": true
+            },
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "clear_on_media_end": false,
+                "close_when_inactive": true,
+                "local_file": "C:/Users/DickC/AppData/Roaming/slobs-client/Overlays/f5e7e2ed-5567-42c3-b10d-31cc450c9629/21.png",
+                "looping": true
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [
+                    {
+                        "alt": true,
+                        "key": "OBS_KEY_3"
+                    }
+                ],
+                "libobs.hide_scene_item.Audio Desktop": [],
+                "libobs.hide_scene_item.Audio Mic Main": [],
+                "libobs.hide_scene_item.Background: Neon City": [],
+                "libobs.hide_scene_item.Chat Youtube": [],
+                "libobs.hide_scene_item.Notifications": [],
+                "libobs.hide_scene_item.Webcam Main": [],
+                "libobs.hide_scene_item.Webcam Main Frame": [],
+                "libobs.show_scene_item.Audio Desktop": [],
+                "libobs.show_scene_item.Audio Mic Main": [],
+                "libobs.show_scene_item.Background: Neon City": [],
+                "libobs.show_scene_item.Chat Youtube": [],
+                "libobs.show_scene_item.Notifications": [],
+                "libobs.show_scene_item.Webcam Main": [],
+                "libobs.show_scene_item.Webcam Main Frame": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Webcam: Neon City",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": false,
+                "id_counter": 8,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 3840.0,
+                            "y": 2160.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 2,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 5,
+                        "locked": false,
+                        "name": "Background: Neon City",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 3,
+                        "locked": false,
+                        "name": "Webcam Main",
+                        "pos": {
+                            "x": 51.0,
+                            "y": 761.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.6220703125,
+                            "y": 1.6215277910232544
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 2,
+                        "locked": false,
+                        "name": "Webcam Main Frame",
+                        "pos": {
+                            "x": -93.0,
+                            "y": 597.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 3.0363636016845703,
+                            "y": 3.0364077091217041
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 6,
+                        "locked": false,
+                        "name": "Chat Youtube",
+                        "pos": {
+                            "x": 1727.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 2.4000000953674316,
+                            "y": 2.4000000953674316
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 4,
+                        "locked": false,
+                        "name": "Notifications",
+                        "pos": {
+                            "x": 2665.0,
+                            "y": 549.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.46875,
+                            "y": 1.46833336353302
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
                         "id": 8,
+                        "locked": false,
+                        "name": "Audio Desktop",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 7,
+                        "locked": false,
+                        "name": "Audio Mic Main",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "browser_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Notifications",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "css": "body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }",
+                "url": "http://streamlabs.com/alert-box/v4/7B7214CD0D63C22DB701"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "dshow_input",
+            "mixers": 255,
+            "monitoring_type": 0,
+            "muted": true,
+            "name": "Webcam Main",
+            "private_settings": {
+                "mixer_hidden": true
+            },
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "last_resolution": "1024x576",
+                "last_video_device_id": "Logitech HD Pro Webcam C920:\\\\?\\usb#22vid_046d&pid_082d&mi_00#227&217de8fe&1&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\{bbefb6c7-2fc4-4139-bb8b-a58bba724083}",
+                "res_type": 1,
+                "resolution": "1024x576",
+                "video_device_id": "Logitech HD Pro Webcam C920:\\\\?\\usb#22vid_046d&pid_082d&mi_00#227&217de8fe&1&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\{bbefb6c7-2fc4-4139-bb8b-a58bba724083}"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "filters": [
+                {
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "scale_filter",
+                    "mixers": 0,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Scaling/Aspect Ratio",
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "resolution": "16:10",
+                        "sampling": "point"
+                    },
+                    "sync": 0,
+                    "volume": 1.0
+                }
+            ],
+            "flags": 0,
+            "hotkeys": {
+                "MediaSource.Restart": [],
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "ffmpeg_source",
+            "mixers": 255,
+            "monitoring_type": 0,
+            "muted": true,
+            "name": "Webcam Main Frame",
+            "private_settings": {
+                "mixer_hidden": true
+            },
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "local_file": "C:/Users/DickC/AppData/Roaming/slobs-client/Overlays/f5e7e2ed-5567-42c3-b10d-31cc450c9629/16.webm",
+                "looping": true
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [
+                    {
+                        "alt": true,
+                        "key": "OBS_KEY_1"
+                    }
+                ],
+                "libobs.hide_scene_item.Audio Desktop": [],
+                "libobs.hide_scene_item.Audio Mic Main": [],
+                "libobs.hide_scene_item.Elgato HD60 Pro": [],
+                "libobs.hide_scene_item.Fortnite": [],
+                "libobs.hide_scene_item.Guilty Gear": [],
+                "libobs.hide_scene_item.Key Display": [],
+                "libobs.hide_scene_item.Notifications": [],
+                "libobs.hide_scene_item.Webcam Main": [],
+                "libobs.hide_scene_item.Webcam Main Frame": [],
+                "libobs.show_scene_item.Audio Desktop": [],
+                "libobs.show_scene_item.Audio Mic Main": [],
+                "libobs.show_scene_item.Elgato HD60 Pro": [],
+                "libobs.show_scene_item.Fortnite": [],
+                "libobs.show_scene_item.Guilty Gear": [],
+                "libobs.show_scene_item.Key Display": [],
+                "libobs.show_scene_item.Notifications": [],
+                "libobs.show_scene_item.Webcam Main": [],
+                "libobs.show_scene_item.Webcam Main Frame": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Main: Camera Left",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": false,
+                "id_counter": 16,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 16,
+                        "locked": false,
+                        "name": "Elgato HD60 Pro",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 2.0,
+                            "y": 2.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 3840.0,
+                            "y": 2160.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 2,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 13,
+                        "locked": false,
+                        "name": "Fortnite",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 3840.0,
+                            "y": 2160.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 2,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 8,
+                        "locked": false,
+                        "name": "Guilty Gear",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 3,
+                        "locked": false,
+                        "name": "Webcam Main",
+                        "pos": {
+                            "x": 7.0,
+                            "y": 1039.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.76718747615814209,
+                            "y": 0.76666665077209473
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 1,
+                        "locked": false,
+                        "name": "Webcam Main Frame",
+                        "pos": {
+                            "x": -65.0,
+                            "y": 960.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.4484848976135254,
+                            "y": 1.4490290880203247
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 12,
+                        "locked": false,
+                        "name": "Key Display",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 1487.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 2.4545454978942871,
+                            "y": 2.4637680053710938
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 5,
+                        "locked": false,
+                        "name": "Notifications",
+                        "pos": {
+                            "x": 1362.5,
+                            "y": 1279.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.46875,
+                            "y": 1.46833336353302
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 10,
+                        "locked": false,
+                        "name": "Audio Desktop",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 7,
                         "locked": false,
                         "name": "Audio Mic Main",
                         "pos": {
@@ -540,11 +1308,12 @@
                 "OBSBasic.SelectScene": [
                     {
                         "alt": true,
-                        "key": "OBS_KEY_1"
+                        "key": "OBS_KEY_2"
                     }
                 ],
                 "libobs.hide_scene_item.Audio Desktop": [],
                 "libobs.hide_scene_item.Audio Mic Main": [],
+                "libobs.hide_scene_item.Elgato HD60 Pro": [],
                 "libobs.hide_scene_item.Fortnite": [],
                 "libobs.hide_scene_item.Guilty Gear": [],
                 "libobs.hide_scene_item.Key Display": [],
@@ -553,6 +1322,7 @@
                 "libobs.hide_scene_item.Webcam Main Frame": [],
                 "libobs.show_scene_item.Audio Desktop": [],
                 "libobs.show_scene_item.Audio Mic Main": [],
+                "libobs.show_scene_item.Elgato HD60 Pro": [],
                 "libobs.show_scene_item.Fortnite": [],
                 "libobs.show_scene_item.Guilty Gear": [],
                 "libobs.show_scene_item.Key Display": [],
@@ -564,15 +1334,45 @@
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Main: Camera Left",
+            "name": "Main: Camera Bottom",
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "id_counter": 13,
+                "custom_size": false,
+                "id_counter": 17,
                 "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 11,
+                        "locked": false,
+                        "name": "Elgato HD60 Pro",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 2.0,
+                            "y": 2.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
                     {
                         "align": 5,
                         "bounds": {
@@ -585,7 +1385,8 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
-                        "id": 13,
+                        "group_item_backup": false,
+                        "id": 1,
                         "locked": false,
                         "name": "Fortnite",
                         "pos": {
@@ -613,7 +1414,8 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
-                        "id": 8,
+                        "group_item_backup": false,
+                        "id": 2,
                         "locked": false,
                         "name": "Guilty Gear",
                         "pos": {
@@ -641,12 +1443,13 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
+                        "group_item_backup": false,
                         "id": 3,
                         "locked": false,
                         "name": "Webcam Main",
                         "pos": {
-                            "x": 7.0,
-                            "y": 1039.0
+                            "x": 1471.0,
+                            "y": 1710.0
                         },
                         "private_settings": {},
                         "rot": 0.0,
@@ -660,8 +1463,8 @@
                     {
                         "align": 5,
                         "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds_align": 0,
                         "bounds_type": 0,
@@ -669,17 +1472,18 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
-                        "id": 1,
+                        "group_item_backup": false,
+                        "id": 4,
                         "locked": false,
                         "name": "Webcam Main Frame",
                         "pos": {
-                            "x": -65.0,
-                            "y": 960.0
+                            "x": 1399.0,
+                            "y": 1631.0
                         },
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 1.4484848976135254,
+                            "x": 1.4484850168228149,
                             "y": 1.4490290880203247
                         },
                         "scale_filter": "disable",
@@ -697,12 +1501,13 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
-                        "id": 12,
+                        "group_item_backup": false,
+                        "id": 5,
                         "locked": false,
                         "name": "Key Display",
                         "pos": {
-                            "x": 0.0,
-                            "y": 1487.0
+                            "x": 1033.0,
+                            "y": 1990.0
                         },
                         "private_settings": {},
                         "rot": 0.0,
@@ -725,7 +1530,8 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
-                        "id": 5,
+                        "group_item_backup": false,
+                        "id": 6,
                         "locked": false,
                         "name": "Notifications",
                         "pos": {
@@ -753,7 +1559,8 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
-                        "id": 10,
+                        "group_item_backup": false,
+                        "id": 7,
                         "locked": false,
                         "name": "Audio Desktop",
                         "pos": {
@@ -781,7 +1588,8 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
-                        "id": 7,
+                        "group_item_backup": false,
+                        "id": 8,
                         "locked": false,
                         "name": "Audio Mic Main",
                         "pos": {
@@ -806,138 +1614,28 @@
             "deinterlace_field_order": 0,
             "deinterlace_mode": 0,
             "enabled": true,
-            "filters": [
-                {
-                    "deinterlace_field_order": 0,
-                    "deinterlace_mode": 0,
-                    "enabled": true,
-                    "flags": 0,
-                    "hotkeys": {},
-                    "id": "scale_filter",
-                    "mixers": 0,
-                    "monitoring_type": 0,
-                    "muted": false,
-                    "name": "Scaling/Aspect Ratio",
-                    "private_settings": {},
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "settings": {
-                        "resolution": "16:10",
-                        "sampling": "point"
-                    },
-                    "sync": 0,
-                    "volume": 1.0
-                }
-            ],
-            "flags": 0,
-            "hotkeys": {
-                "MediaSource.Restart": [],
-                "libobs.mute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "libobs.unmute": []
-            },
-            "id": "ffmpeg_source",
-            "mixers": 255,
-            "monitoring_type": 0,
-            "muted": true,
-            "name": "Webcam Main Frame",
-            "private_settings": {
-                "mixer_hidden": true
-            },
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "local_file": "C:/Users/DickC/AppData/Roaming/slobs-client/Overlays/f5e7e2ed-5567-42c3-b10d-31cc450c9629/16.webm",
-                "looping": true
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {
-                "libobs.mute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "libobs.unmute": []
-            },
-            "id": "dshow_input",
-            "mixers": 255,
-            "monitoring_type": 0,
-            "muted": true,
-            "name": "Webcam Main",
-            "private_settings": {
-                "mixer_hidden": true
-            },
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "last_resolution": "1024x576",
-                "last_video_device_id": "Logitech HD Pro Webcam C920:\\\\?\\usb#22vid_046d&pid_082d&mi_00#227&217de8fe&1&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\{bbefb6c7-2fc4-4139-bb8b-a58bba724083}",
-                "res_type": 1,
-                "resolution": "1024x576",
-                "video_device_id": "Logitech HD Pro Webcam C920:\\\\?\\usb#22vid_046d&pid_082d&mi_00#227&217de8fe&1&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\{bbefb6c7-2fc4-4139-bb8b-a58bba724083}"
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {},
-            "id": "browser_source",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Notifications",
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "css": "body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }",
-                "url": "http://streamlabs.com/alert-box/v4/7B7214CD0D63C22DB701"
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
             "flags": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [
                     {
                         "alt": true,
-                        "key": "OBS_KEY_3"
+                        "key": "OBS_KEY_ASCIITILDE"
                     }
                 ],
                 "libobs.hide_scene_item.Audio Desktop": [],
                 "libobs.hide_scene_item.Audio Mic Main": [],
-                "libobs.hide_scene_item.Background: Neon City": [],
-                "libobs.hide_scene_item.Chat Youtube": [],
+                "libobs.hide_scene_item.Browser Youtube": [],
                 "libobs.hide_scene_item.Notifications": [],
+                "libobs.hide_scene_item.Primary Display": [],
+                "libobs.hide_scene_item.Telestration": [],
                 "libobs.hide_scene_item.Webcam Main": [],
                 "libobs.hide_scene_item.Webcam Main Frame": [],
                 "libobs.show_scene_item.Audio Desktop": [],
                 "libobs.show_scene_item.Audio Mic Main": [],
-                "libobs.show_scene_item.Background: Neon City": [],
-                "libobs.show_scene_item.Chat Youtube": [],
+                "libobs.show_scene_item.Browser Youtube": [],
                 "libobs.show_scene_item.Notifications": [],
+                "libobs.show_scene_item.Primary Display": [],
+                "libobs.show_scene_item.Telestration": [],
                 "libobs.show_scene_item.Webcam Main": [],
                 "libobs.show_scene_item.Webcam Main Frame": []
             },
@@ -945,30 +1643,32 @@
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Webcam: Neon City",
+            "name": "Browser",
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "id_counter": 8,
+                "custom_size": false,
+                "id_counter": 14,
                 "items": [
                     {
                         "align": 5,
                         "bounds": {
-                            "x": 3840.0,
-                            "y": 2160.0
+                            "x": 0.0,
+                            "y": 0.0
                         },
                         "bounds_align": 0,
-                        "bounds_type": 2,
+                        "bounds_type": 0,
                         "crop_bottom": 0,
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
-                        "id": 5,
+                        "group_item_backup": false,
+                        "id": 14,
                         "locked": false,
-                        "name": "Background: Neon City",
+                        "name": "Primary Display",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
@@ -994,18 +1694,77 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
-                        "id": 3,
+                        "group_item_backup": false,
+                        "id": 12,
+                        "locked": false,
+                        "name": "Browser Youtube",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 13,
+                        "locked": false,
+                        "name": "Telestration",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 2.0,
+                            "y": 2.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 4,
                         "locked": false,
                         "name": "Webcam Main",
                         "pos": {
-                            "x": 51.0,
-                            "y": 761.0
+                            "x": 1471.0,
+                            "y": 1710.0
                         },
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 1.6220703125,
-                            "y": 1.6215277910232544
+                            "x": 0.76718747615814209,
+                            "y": 0.76666665077209473
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -1013,8 +1772,8 @@
                     {
                         "align": 5,
                         "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds_align": 0,
                         "bounds_type": 0,
@@ -1022,18 +1781,19 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
-                        "id": 2,
+                        "group_item_backup": false,
+                        "id": 5,
                         "locked": false,
                         "name": "Webcam Main Frame",
                         "pos": {
-                            "x": -93.0,
-                            "y": 597.0
+                            "x": 1399.0,
+                            "y": 1631.0
                         },
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 3.0363636016845703,
-                            "y": 3.0364077091217041
+                            "x": 1.4484850168228149,
+                            "y": 1.4490290880203247
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -1050,40 +1810,13 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
-                        "id": 6,
-                        "locked": false,
-                        "name": "Chat Youtube",
-                        "pos": {
-                            "x": 1727.0,
-                            "y": 0.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 2.4000000953674316,
-                            "y": 2.4000000953674316
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "id": 4,
+                        "group_item_backup": false,
+                        "id": 7,
                         "locked": false,
                         "name": "Notifications",
                         "pos": {
-                            "x": 2665.0,
-                            "y": 549.0
+                            "x": 1362.5,
+                            "y": 1279.0
                         },
                         "private_settings": {},
                         "rot": 0.0,
@@ -1106,6 +1839,7 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
+                        "group_item_backup": false,
                         "id": 8,
                         "locked": false,
                         "name": "Audio Desktop",
@@ -1134,7 +1868,8 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
-                        "id": 7,
+                        "group_item_backup": false,
+                        "id": 9,
                         "locked": false,
                         "name": "Audio Mic Main",
                         "pos": {
@@ -1151,311 +1886,6 @@
                         "visible": true
                     }
                 ]
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {
-                "MediaSource.Restart": [],
-                "libobs.mute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "libobs.unmute": []
-            },
-            "id": "ffmpeg_source",
-            "mixers": 255,
-            "monitoring_type": 0,
-            "muted": true,
-            "name": "Background: Starry Night",
-            "private_settings": {
-                "mixer_hidden": true
-            },
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "clear_on_media_end": false,
-                "close_when_inactive": true,
-                "local_file": "C:/Users/DickC/AppData/Roaming/slobs-client/Overlays/f5e7e2ed-5567-42c3-b10d-31cc450c9629/21.png",
-                "looping": true
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {
-                "OBSBasic.SelectScene": [
-                    {
-                        "alt": true,
-                        "key": "OBS_KEY_4"
-                    }
-                ],
-                "libobs.hide_scene_item.Audio Desktop": [],
-                "libobs.hide_scene_item.Audio Mic Main": [],
-                "libobs.hide_scene_item.Background: Starry Night": [],
-                "libobs.hide_scene_item.Chat Youtube": [],
-                "libobs.hide_scene_item.Notifications": [],
-                "libobs.hide_scene_item.Webcam Main": [],
-                "libobs.hide_scene_item.Webcam Main Frame": [],
-                "libobs.show_scene_item.Audio Desktop": [],
-                "libobs.show_scene_item.Audio Mic Main": [],
-                "libobs.show_scene_item.Background: Starry Night": [],
-                "libobs.show_scene_item.Chat Youtube": [],
-                "libobs.show_scene_item.Notifications": [],
-                "libobs.show_scene_item.Webcam Main": [],
-                "libobs.show_scene_item.Webcam Main Frame": []
-            },
-            "id": "scene",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Webcam: Starry Rain",
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "id_counter": 7,
-                "items": [
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 3840.0,
-                            "y": 2160.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 2,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "id": 1,
-                        "locked": false,
-                        "name": "Background: Starry Night",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "id": 2,
-                        "locked": false,
-                        "name": "Webcam Main",
-                        "pos": {
-                            "x": 1366.0,
-                            "y": 711.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 2.33203125,
-                            "y": 2.3315973281860352
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "id": 3,
-                        "locked": false,
-                        "name": "Webcam Main Frame",
-                        "pos": {
-                            "x": 1161.0,
-                            "y": 488.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 4.3409090042114258,
-                            "y": 4.3398056030273438
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "id": 5,
-                        "locked": false,
-                        "name": "Chat Youtube",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 2.4000000953674316,
-                            "y": 2.4000000953674316
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "id": 4,
-                        "locked": false,
-                        "name": "Notifications",
-                        "pos": {
-                            "x": 2575.5,
-                            "y": 707.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.46875,
-                            "y": 1.46833336353302
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "id": 7,
-                        "locked": false,
-                        "name": "Audio Desktop",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "id": 6,
-                        "locked": false,
-                        "name": "Audio Mic Main",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    }
-                ]
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {
-                "MediaSource.Restart": [],
-                "libobs.mute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "libobs.unmute": []
-            },
-            "id": "ffmpeg_source",
-            "mixers": 255,
-            "monitoring_type": 0,
-            "muted": true,
-            "name": "Background: Neon City",
-            "private_settings": {
-                "mixer_hidden": true
-            },
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "local_file": "C:/Users/DickC/AppData/Roaming/slobs-client/Overlays/84418ece-85c3-4c13-89a7-9065c61427d6/53.webm",
-                "looping": true
             },
             "sync": 0,
             "volume": 1.0
@@ -1466,21 +1896,95 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {},
-            "id": "browser_source",
+            "id": "window_capture",
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Chat Youtube",
+            "name": "Browser Youtube",
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "css": "body {\n\tbackground-color: rgba(0, 0, 0, 0);\n\toverflow: hidden;\n\tvertical-align: bottom;\n}",
-                "height": 900,
-                "url": "https://streamlabs.com/widgets/chat-box/v1/7B7214CD0D63C22DB701",
-                "width": 475
+                "priority": 1,
+                "window": "scrub gg; - YouTube - Google Chrome:Chrome_WidgetWin_1:chrome.exe"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "filters": [
+                {
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "crop_filter",
+                    "mixers": 0,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Crop/Pad",
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "bottom": 86,
+                        "left": 5,
+                        "relative": true,
+                        "right": 51,
+                        "top": 223
+                    },
+                    "sync": 0,
+                    "volume": 1.0
+                },
+                {
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "color_key_filter",
+                    "mixers": 0,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Color Key",
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "key_color": 4294967295,
+                        "key_color_type": "custom",
+                        "similarity": 1000,
+                        "smoothness": 1
+                    },
+                    "sync": 0,
+                    "volume": 1.0
+                }
+            ],
+            "flags": 0,
+            "hotkeys": {},
+            "id": "window_capture",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Telestration",
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "priority": 1,
+                "window": "Untitled - Paint:MSPaintApp:mspaint.exe"
             },
             "sync": 0,
             "volume": 1.0
@@ -1496,102 +2000,22 @@
                 "libobs.push-to-talk": [],
                 "libobs.unmute": []
             },
-            "id": "wasapi_input_capture",
+            "id": "dshow_input",
             "mixers": 255,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Audio Mic Main",
+            "name": "Elgato HD60 Pro",
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "device_id": "{0.0.1.00000000}.{f9b8ea0a-25fa-4851-ae24-32af422238e3}",
-                "use_device_timing": true
+                "last_video_device_id": "Elgato Game Capture HD:__elgato",
+                "video_device_id": "Elgato Game Capture HD:__elgato"
             },
             "sync": 0,
-            "volume": 0.49303889274597168
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {
-                "hotkey_start": [],
-                "hotkey_stop": []
-            },
-            "id": "game_capture",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Guilty Gear",
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "capture_mode": "window",
-                "window": "Guilty Gear Xrd -REVELATOR-:LaunchUnrealUWindowsClient:GuiltyGearXrd.exe"
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {
-                "libobs.mute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "libobs.unmute": []
-            },
-            "id": "wasapi_output_capture",
-            "mixers": 255,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Audio Desktop",
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "device_id": "{0.0.0.00000000}.{647d4178-9c42-491b-80df-019606846183}",
-                "use_device_timing": true
-            },
-            "sync": 0,
-            "volume": 0.039999999105930328
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {
-                "hotkey_start": [],
-                "hotkey_stop": []
-            },
-            "id": "game_capture",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Fortnite",
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "capture_mode": "window",
-                "window": "Fortnite  :UnrealWindow:FortniteClient-Win64-Shipping.exe"
-            },
-            "sync": 0,
-            "volume": 1.0
+            "volume": 0.51199990510940552
         }
     ],
     "transition_duration": 300,
