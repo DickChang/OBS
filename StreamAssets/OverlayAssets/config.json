@@ -1,0 +1,830 @@
+{
+  "schemaVersion": 1,
+  "nodeType": "RootNode",
+  "scenes": {
+    "schemaVersion": 1,
+    "nodeType": "ScenesNode",
+    "items": [
+      {
+        "name": "Starting Soon",
+        "slots": {
+          "schemaVersion": 1,
+          "nodeType": "SlotsNode",
+          "items": [
+            {
+              "id": "2cb2a954-c503-4c99-974c-871b48d2a482",
+              "sceneNodeType": "item",
+              "name": "Starting",
+              "x": 0,
+              "y": 0,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "mixerHidden": true,
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "VideoNode",
+                "settings": {
+                  "buffering_mb": 2,
+                  "clear_on_media_end": true,
+                  "color_range": 0,
+                  "hw_decode": true,
+                  "is_local_file": true,
+                  "local_file": "",
+                  "looping": true,
+                  "restart_on_activate": true,
+                  "speed_percent": 100
+                },
+                "filename": "13.webm"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "Live Scene",
+        "slots": {
+          "schemaVersion": 1,
+          "nodeType": "SlotsNode",
+          "items": [
+            {
+              "id": "e52498e1-2b60-4ac7-9e72-c9ee56069af0",
+              "sceneNodeType": "item",
+              "name": "Background (delete me)",
+              "x": 0,
+              "y": 0,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "ImageNode",
+                "filename": "14.png"
+              }
+            },
+            {
+              "id": "aef1c358-15ac-425e-80ed-388f5eaa8ec5",
+              "sceneNodeType": "item",
+              "name": "Chatbox Frame",
+              "x": 0.7232097868217054,
+              "y": 0.1584194659776055,
+              "scaleX": 0.0004827219128725843,
+              "scaleY": 0.000858172289551261,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "mixerHidden": true,
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "VideoNode",
+                "settings": {
+                  "buffering_mb": 2,
+                  "clear_on_media_end": true,
+                  "color_range": 0,
+                  "hw_decode": true,
+                  "is_local_file": true,
+                  "local_file": "",
+                  "looping": true,
+                  "restart_on_activate": true,
+                  "speed_percent": 100
+                },
+                "filename": "15.webm"
+              }
+            },
+            {
+              "id": "f5800938-cc67-4389-b9c3-bce4014d40a9",
+              "sceneNodeType": "item",
+              "name": "Chat Box",
+              "x": 0.7639513410786001,
+              "y": 0.22528163183886882,
+              "scaleX": 0.00037865748709122203,
+              "scaleY": 0.0006731688659399503,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "WidgetNode",
+                "settings": {
+                  "css": "body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }",
+                  "fps": 30,
+                  "height": 700,
+                  "restart_when_active": false,
+                  "shutdown": true,
+                  "url": "",
+                  "width": 500
+                },
+                "type": 6
+              }
+            },
+            {
+              "id": "537bf2ae-8a43-431d-9da0-82850336c07b",
+              "sceneNodeType": "folder",
+              "name": "Chatbox",
+              "childrenIds": [
+                "f5800938-cc67-4389-b9c3-bce4014d40a9",
+                "aef1c358-15ac-425e-80ed-388f5eaa8ec5"
+              ]
+            },
+            {
+              "id": "af559c42-7a71-403a-a839-72fe54fa7e9e",
+              "sceneNodeType": "item",
+              "name": "Webcam",
+              "x": 0.022692555938037866,
+              "y": 0.35977907824542915,
+              "scaleX": 0.0004109714527753872,
+              "scaleY": 0.0007306159160451329,
+              "crop": {
+                "top": 17,
+                "bottom": 20,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "mixerHidden": false,
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "WebcamNode",
+                "width": 0.2630217297762478,
+                "height": 0.2359889408825779
+              }
+            },
+            {
+              "id": "10e54911-9242-4460-b352-1c02a69a0b31",
+              "sceneNodeType": "item",
+              "name": "Webcam Frame",
+              "x": -0.0003754844961240048,
+              "y": 0.3166471742451532,
+              "scaleX": 0.0004838073349473601,
+              "scaleY": 0.0008601019287953069,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "mixerHidden": true,
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "VideoNode",
+                "settings": {
+                  "buffering_mb": 2,
+                  "clear_on_media_end": true,
+                  "color_range": 0,
+                  "hw_decode": true,
+                  "is_local_file": true,
+                  "local_file": "",
+                  "looping": true,
+                  "restart_on_activate": true,
+                  "speed_percent": 100
+                },
+                "filename": "16.webm"
+              }
+            },
+            {
+              "id": "47948356-0ba2-41bf-9833-071ae559fd06",
+              "sceneNodeType": "item",
+              "name": "Label",
+              "x": 0.020359115031554787,
+              "y": 0.5855828339428218,
+              "scaleX": 0.0002741229053117231,
+              "scaleY": 0.00048732960944306334,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "mixerHidden": true,
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "VideoNode",
+                "settings": {
+                  "buffering_mb": 2,
+                  "clear_on_media_end": true,
+                  "color_range": 0,
+                  "hw_decode": true,
+                  "is_local_file": true,
+                  "local_file": "",
+                  "looping": true,
+                  "restart_on_activate": true,
+                  "speed_percent": 100
+                },
+                "filename": "17.webm"
+              }
+            },
+            {
+              "id": "3c66785b-9365-41f5-bc25-d84ac7189cb9",
+              "sceneNodeType": "item",
+              "name": "Top Donation",
+              "x": 0.10883713425129085,
+              "y": 0.6019184920746106,
+              "scaleX": 0.0002975269473196112,
+              "scaleY": 0.0005289367952348644,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "TextNode",
+                "settings": {
+                  "align": "left",
+                  "bk_color": 0,
+                  "bk_opacity": 0,
+                  "chatlog_lines": 6,
+                  "color": 16777215,
+                  "custom_font": "Teko-Medium.ttf",
+                  "extents_cx": 100,
+                  "extents_cy": 100,
+                  "extents_wrap": true,
+                  "file": "",
+                  "font": {
+                    "face": "Teko Medium",
+                    "flags": 0,
+                    "size": 64
+                  },
+                  "gradient_color": 16777215,
+                  "gradient_dir": 90,
+                  "gradient_opacity": 100,
+                  "opacity": 100,
+                  "outline": true,
+                  "outline_color": 8402186,
+                  "outline_opacity": 100,
+                  "outline_size": 8,
+                  "read_from_file": false,
+                  "text": "TOP DONATION",
+                  "valign": "top"
+                }
+              }
+            },
+            {
+              "id": "d5cd601b-5763-4062-b635-5aec14ea38a9",
+              "sceneNodeType": "item",
+              "name": "Top Donation (Stream Label)",
+              "x": 0.07224254159495125,
+              "y": 0.6329026701119724,
+              "scaleX": 0.00022862133056033654,
+              "scaleY": 0.00040643792099615385,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "StreamlabelNode",
+                "labelType": "all_time_top_donator",
+                "textSource": {
+                  "schemaVersion": 1,
+                  "nodeType": "TextNode",
+                  "settings": {
+                    "align": "center",
+                    "bk_color": 0,
+                    "bk_opacity": 0,
+                    "chatlog_lines": 6,
+                    "color": 16777215,
+                    "custom_font": "Teko-Medium.ttf",
+                    "extents": true,
+                    "extents_cx": 700,
+                    "extents_cy": 150,
+                    "extents_wrap": true,
+                    "file": "",
+                    "font": {
+                      "face": "Teko Medium",
+                      "flags": 0,
+                      "size": 64
+                    },
+                    "gradient_color": 16777215,
+                    "gradient_dir": 90,
+                    "gradient_opacity": 100,
+                    "opacity": 100,
+                    "outline_color": 16777215,
+                    "outline_opacity": 100,
+                    "outline_size": 2,
+                    "read_from_file": true,
+                    "text": "Top Donation (Stream Label)",
+                    "valign": "center"
+                  }
+                }
+              }
+            },
+            {
+              "id": "25b38fec-8a84-4416-b791-516eb9e468f7",
+              "sceneNodeType": "folder",
+              "name": "Labels",
+              "childrenIds": [
+                "d5cd601b-5763-4062-b635-5aec14ea38a9",
+                "3c66785b-9365-41f5-bc25-d84ac7189cb9",
+                "47948356-0ba2-41bf-9833-071ae559fd06"
+              ]
+            },
+            {
+              "id": "866e8bc8-1e20-4f1f-8b65-6d29096bf683",
+              "sceneNodeType": "folder",
+              "name": "Webcam",
+              "childrenIds": [
+                "25b38fec-8a84-4416-b791-516eb9e468f7",
+                "10e54911-9242-4460-b352-1c02a69a0b31",
+                "af559c42-7a71-403a-a839-72fe54fa7e9e"
+              ]
+            },
+            {
+              "id": "7cc292ef-c2cd-467e-a14d-003cec8a2f99",
+              "sceneNodeType": "item",
+              "name": "Header",
+              "x": 0.17736180052526188,
+              "y": -0.006501313897565203,
+              "scaleX": 0.0004296909967130546,
+              "scaleY": 0.0007638951052676526,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "mixerHidden": true,
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "VideoNode",
+                "settings": {
+                  "buffering_mb": 2,
+                  "clear_on_media_end": true,
+                  "color_range": 0,
+                  "hw_decode": true,
+                  "is_local_file": true,
+                  "local_file": "",
+                  "looping": true,
+                  "restart_on_activate": true,
+                  "speed_percent": 100
+                },
+                "filename": "18.webm"
+              }
+            },
+            {
+              "id": "bb8ed079-cda1-428c-82c5-9d361abd4ccb",
+              "sceneNodeType": "item",
+              "name": "Your Name",
+              "x": 0.4353817053930006,
+              "y": 0.04655693932137505,
+              "scaleX": 0.0005328061641238078,
+              "scaleY": 0.0009472109584423248,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "TextNode",
+                "settings": {
+                  "align": "left",
+                  "bk_color": 0,
+                  "bk_opacity": 0,
+                  "chatlog_lines": 6,
+                  "color": 16777215,
+                  "custom_font": "Teko-Medium.ttf",
+                  "extents_cx": 100,
+                  "extents_cy": 100,
+                  "extents_wrap": true,
+                  "file": "",
+                  "font": {
+                    "face": "Teko Medium",
+                    "flags": 0,
+                    "size": 64
+                  },
+                  "gradient_color": 16777215,
+                  "gradient_dir": 90,
+                  "gradient_opacity": 100,
+                  "opacity": 100,
+                  "outline": true,
+                  "outline_color": -8375030,
+                  "outline_opacity": 100,
+                  "outline_size": 8,
+                  "read_from_file": false,
+                  "text": "YOUR NAME",
+                  "valign": "top"
+                }
+              }
+            },
+            {
+              "id": "b3370a63-5a1b-4c5b-9207-cc3c07da405e",
+              "sceneNodeType": "item",
+              "name": "New Follower",
+              "x": 0.25050848284460564,
+              "y": 0.04718140099234836,
+              "scaleX": 0.00031369861166610254,
+              "scaleY": 0.0005576864207397378,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "TextNode",
+                "settings": {
+                  "align": "left",
+                  "bk_color": 0,
+                  "bk_opacity": 0,
+                  "chatlog_lines": 6,
+                  "color": 16777215,
+                  "custom_font": "Teko-Medium.ttf",
+                  "extents_cx": 100,
+                  "extents_cy": 100,
+                  "extents_wrap": true,
+                  "file": "",
+                  "font": {
+                    "face": "Teko Medium",
+                    "flags": 0,
+                    "size": 64
+                  },
+                  "gradient_color": 16777215,
+                  "gradient_dir": 90,
+                  "gradient_opacity": 100,
+                  "opacity": 100,
+                  "outline": true,
+                  "outline_color": -8375030,
+                  "outline_opacity": 100,
+                  "outline_size": 8,
+                  "read_from_file": false,
+                  "text": "NEW FOLLOWER",
+                  "valign": "top"
+                }
+              }
+            },
+            {
+              "id": "2412aeaa-ab4c-4c6c-b3ae-ae87e013dfcb",
+              "sceneNodeType": "item",
+              "name": "New Donation",
+              "x": 0.6455843219151736,
+              "y": 0.04718140099234836,
+              "scaleX": 0.00031369861166610254,
+              "scaleY": 0.0005576864207397378,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "TextNode",
+                "settings": {
+                  "align": "left",
+                  "bk_color": 0,
+                  "bk_opacity": 0,
+                  "chatlog_lines": 6,
+                  "color": 16777215,
+                  "custom_font": "Teko-Medium.ttf",
+                  "extents_cx": 100,
+                  "extents_cy": 100,
+                  "extents_wrap": true,
+                  "file": "",
+                  "font": {
+                    "face": "Teko Medium",
+                    "flags": 0,
+                    "size": 64
+                  },
+                  "gradient_color": 16777215,
+                  "gradient_dir": 90,
+                  "gradient_opacity": 100,
+                  "opacity": 100,
+                  "outline": true,
+                  "outline_color": -8375030,
+                  "outline_opacity": 100,
+                  "outline_size": 8,
+                  "read_from_file": false,
+                  "text": "NEW DONATION",
+                  "valign": "top"
+                }
+              }
+            },
+            {
+              "id": "62df9fcc-03ae-4cc4-a72d-aa9d4221c9d8",
+              "sceneNodeType": "item",
+              "name": "New Donation (Stream Label)",
+              "x": 0.6094053956690549,
+              "y": 0.08772609819121445,
+              "scaleX": 0.0002441860465116279,
+              "scaleY": 0.00043410852713178294,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "StreamlabelNode",
+                "labelType": "most_recent_donator",
+                "textSource": {
+                  "schemaVersion": 1,
+                  "nodeType": "TextNode",
+                  "settings": {
+                    "align": "center",
+                    "bk_color": 0,
+                    "bk_opacity": 0,
+                    "chatlog_lines": 6,
+                    "color": 16777215,
+                    "custom_font": "Teko-Medium.ttf",
+                    "extents": true,
+                    "extents_cx": 700,
+                    "extents_cy": 100,
+                    "extents_wrap": true,
+                    "file": "",
+                    "font": {
+                      "face": "Teko Medium",
+                      "flags": 0,
+                      "size": 64
+                    },
+                    "gradient_color": 16777215,
+                    "gradient_dir": 90,
+                    "gradient_opacity": 100,
+                    "opacity": 100,
+                    "outline_color": 16777215,
+                    "outline_opacity": 100,
+                    "outline_size": 2,
+                    "read_from_file": true,
+                    "text": "New Follower (Stream Label)",
+                    "valign": "center"
+                  }
+                }
+              }
+            },
+            {
+              "id": "53dc09cc-fc05-4004-bfba-d50d5fa72f91",
+              "sceneNodeType": "item",
+              "name": "New Follower (Stream Label)",
+              "x": 0.2174993787442127,
+              "y": 0.08804909560723514,
+              "scaleX": 0.0002441860465116279,
+              "scaleY": 0.00043410852713178294,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "StreamlabelNode",
+                "labelType": "most_recent_follower",
+                "textSource": {
+                  "schemaVersion": 1,
+                  "nodeType": "TextNode",
+                  "settings": {
+                    "align": "center",
+                    "bk_color": 0,
+                    "bk_opacity": 0,
+                    "chatlog_lines": 6,
+                    "color": 16777215,
+                    "custom_font": "Teko-Medium.ttf",
+                    "extents": true,
+                    "extents_cx": 700,
+                    "extents_cy": 100,
+                    "extents_wrap": true,
+                    "file": "",
+                    "font": {
+                      "face": "Teko Medium",
+                      "flags": 0,
+                      "size": 64
+                    },
+                    "gradient_color": 16777215,
+                    "gradient_dir": 90,
+                    "gradient_opacity": 100,
+                    "opacity": 100,
+                    "outline_color": 16777215,
+                    "outline_opacity": 100,
+                    "outline_size": 2,
+                    "read_from_file": true,
+                    "text": "New Follower (Stream Label)",
+                    "valign": "center"
+                  }
+                }
+              }
+            },
+            {
+              "id": "e8d26be2-f703-4036-aba9-59c129bda997",
+              "sceneNodeType": "folder",
+              "name": "Header",
+              "childrenIds": [
+                "53dc09cc-fc05-4004-bfba-d50d5fa72f91",
+                "62df9fcc-03ae-4cc4-a72d-aa9d4221c9d8",
+                "2412aeaa-ab4c-4c6c-b3ae-ae87e013dfcb",
+                "b3370a63-5a1b-4c5b-9207-cc3c07da405e",
+                "bb8ed079-cda1-428c-82c5-9d361abd4ccb",
+                "7cc292ef-c2cd-467e-a14d-003cec8a2f99"
+              ]
+            },
+            {
+              "id": "2c5beb1a-e358-4775-b6cd-27b0b756559b",
+              "sceneNodeType": "item",
+              "name": "Alert Box",
+              "x": 0.2916666666666667,
+              "y": 0,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "WidgetNode",
+                "settings": {
+                  "css": "body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }",
+                  "fps": 30,
+                  "height": 600,
+                  "restart_when_active": false,
+                  "shutdown": true,
+                  "url": "",
+                  "width": 800
+                },
+                "type": 0
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "Be Right Back",
+        "slots": {
+          "schemaVersion": 1,
+          "nodeType": "SlotsNode",
+          "items": [
+            {
+              "id": "fafc2986-c88c-4078-ae01-3bc2091f9486",
+              "sceneNodeType": "item",
+              "name": "BRB",
+              "x": 0,
+              "y": 0,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "mixerHidden": true,
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "VideoNode",
+                "settings": {
+                  "buffering_mb": 2,
+                  "clear_on_media_end": true,
+                  "color_range": 0,
+                  "hw_decode": true,
+                  "is_local_file": true,
+                  "local_file": "",
+                  "looping": true,
+                  "restart_on_activate": true,
+                  "speed_percent": 100
+                },
+                "filename": "19.webm"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "Ending Soon",
+        "slots": {
+          "schemaVersion": 1,
+          "nodeType": "SlotsNode",
+          "items": [
+            {
+              "id": "28dfbdfe-5535-4f17-ab4d-a7f895dff458",
+              "sceneNodeType": "item",
+              "name": "Ending",
+              "x": 0,
+              "y": 0,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "mixerHidden": true,
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "VideoNode",
+                "settings": {
+                  "buffering_mb": 2,
+                  "clear_on_media_end": true,
+                  "color_range": 0,
+                  "hw_decode": true,
+                  "is_local_file": true,
+                  "local_file": "",
+                  "looping": true,
+                  "restart_on_activate": true,
+                  "speed_percent": 100
+                },
+                "filename": "20.webm"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "Offline",
+        "slots": {
+          "schemaVersion": 1,
+          "nodeType": "SlotsNode",
+          "items": [
+            {
+              "id": "fa06ed7c-0d07-47ee-82db-dc7125560c97",
+              "sceneNodeType": "item",
+              "name": "Offline",
+              "x": 0,
+              "y": 0,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "ImageNode",
+                "filename": "21.png"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "transition": {
+    "schemaVersion": 1,
+    "nodeType": "TransitionNode",
+    "type": "cut_transition",
+    "settings": {},
+    "duration": 300
+  }
+}
