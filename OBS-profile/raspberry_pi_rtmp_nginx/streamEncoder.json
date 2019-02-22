@@ -1,3 +1,6 @@
 {
-    "bitrate": 6000
+    "bitrate": 10000,
+    "gpu": 0,
+    "preset": "hq",
+    "profile": "high"
 }

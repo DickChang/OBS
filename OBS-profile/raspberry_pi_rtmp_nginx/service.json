@@ -1,7 +1,7 @@
 {
     "settings": {
         "key": "test",
-        "server": "rtmp://214.229.1.79/live"
+        "server": "rtmp://214.229.1.89:58053/live"
     },
     "type": "rtmp_custom"
 }
