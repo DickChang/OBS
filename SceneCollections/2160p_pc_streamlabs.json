@@ -1,6 +1,6 @@
 {
-    "current_program_scene": "Browser",
-    "current_scene": "Browser",
+    "current_program_scene": "Main: Camera Bottom",
+    "current_scene": "Main: Camera Bottom",
     "current_transition": "Fade",
     "groups": [],
     "modules": {
@@ -69,11 +69,13 @@
     ],
     "sources": [
         {
+            "balance": 0.5,
             "deinterlace_field_order": 0,
             "deinterlace_mode": 0,
             "enabled": true,
             "filters": [
                 {
+                    "balance": 0.5,
                     "deinterlace_field_order": 0,
                     "deinterlace_mode": 0,
                     "enabled": true,
@@ -113,32 +115,7 @@
             "volume": 1.0
         },
         {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {
-                "hotkey_start": [],
-                "hotkey_stop": []
-            },
-            "id": "game_capture",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Fortnite",
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "capture_mode": "window",
-                "window": "Fortnite  :UnrealWindow:FortniteClient-Win64-Shipping.exe"
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
+            "balance": 0.5,
             "deinterlace_field_order": 0,
             "deinterlace_mode": 0,
             "enabled": true,
@@ -167,6 +144,7 @@
             "volume": 0.5
         },
         {
+            "balance": 0.5,
             "deinterlace_field_order": 0,
             "deinterlace_mode": 0,
             "enabled": true,
@@ -193,6 +171,7 @@
             "volume": 1.0
         },
         {
+            "balance": 0.5,
             "deinterlace_field_order": 0,
             "deinterlace_mode": 0,
             "enabled": true,
@@ -221,6 +200,7 @@
             "volume": 0.49303889274597168
         },
         {
+            "balance": 0.5,
             "deinterlace_field_order": 0,
             "deinterlace_mode": 0,
             "enabled": true,
@@ -246,6 +226,7 @@
             "volume": 1.0
         },
         {
+            "balance": 0.5,
             "deinterlace_field_order": 0,
             "deinterlace_mode": 0,
             "enabled": true,
@@ -277,6 +258,7 @@
             "volume": 1.0
         },
         {
+            "balance": 0.5,
             "deinterlace_field_order": 0,
             "deinterlace_mode": 0,
             "enabled": true,
@@ -526,6 +508,7 @@
             "volume": 1.0
         },
         {
+            "balance": 0.5,
             "deinterlace_field_order": 0,
             "deinterlace_mode": 0,
             "enabled": true,
@@ -559,6 +542,7 @@
             "volume": 1.0
         },
         {
+            "balance": 0.5,
             "deinterlace_field_order": 0,
             "deinterlace_mode": 0,
             "enabled": true,
@@ -808,6 +792,7 @@
             "volume": 1.0
         },
         {
+            "balance": 0.5,
             "deinterlace_field_order": 0,
             "deinterlace_mode": 0,
             "enabled": true,
@@ -831,6 +816,7 @@
             "volume": 1.0
         },
         {
+            "balance": 0.5,
             "deinterlace_field_order": 0,
             "deinterlace_mode": 0,
             "enabled": true,
@@ -864,11 +850,13 @@
             "volume": 1.0
         },
         {
+            "balance": 0.5,
             "deinterlace_field_order": 0,
             "deinterlace_mode": 0,
             "enabled": true,
             "filters": [
                 {
+                    "balance": 0.5,
                     "deinterlace_field_order": 0,
                     "deinterlace_mode": 0,
                     "enabled": true,
@@ -920,6 +908,7 @@
             "volume": 1.0
         },
         {
+            "balance": 0.5,
             "deinterlace_field_order": 0,
             "deinterlace_mode": 0,
             "enabled": true,
@@ -934,19 +923,19 @@
                 "libobs.hide_scene_item.Audio Desktop": [],
                 "libobs.hide_scene_item.Audio Mic Main": [],
                 "libobs.hide_scene_item.Elgato HD60 Pro": [],
-                "libobs.hide_scene_item.Fortnite": [],
                 "libobs.hide_scene_item.Guilty Gear": [],
                 "libobs.hide_scene_item.Key Display": [],
                 "libobs.hide_scene_item.Notifications": [],
+                "libobs.hide_scene_item.Telestration": [],
                 "libobs.hide_scene_item.Webcam Main": [],
                 "libobs.hide_scene_item.Webcam Main Frame": [],
                 "libobs.show_scene_item.Audio Desktop": [],
                 "libobs.show_scene_item.Audio Mic Main": [],
                 "libobs.show_scene_item.Elgato HD60 Pro": [],
-                "libobs.show_scene_item.Fortnite": [],
                 "libobs.show_scene_item.Guilty Gear": [],
                 "libobs.show_scene_item.Key Display": [],
                 "libobs.show_scene_item.Notifications": [],
+                "libobs.show_scene_item.Telestration": [],
                 "libobs.show_scene_item.Webcam Main": [],
                 "libobs.show_scene_item.Webcam Main Frame": []
             },
@@ -962,7 +951,7 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": false,
-                "id_counter": 16,
+                "id_counter": 17,
                 "items": [
                     {
                         "align": 5,
@@ -992,35 +981,6 @@
                         },
                         "scale_filter": "disable",
                         "visible": false
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 3840.0,
-                            "y": 2160.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 2,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 13,
-                        "locked": false,
-                        "name": "Fortnite",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
                     },
                     {
                         "align": 5,
@@ -1224,6 +1184,35 @@
                         },
                         "scale_filter": "disable",
                         "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 17,
+                        "locked": false,
+                        "name": "Telestration",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 2.0,
+                            "y": 2.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
                     }
                 ]
             },
@@ -1231,11 +1220,13 @@
             "volume": 1.0
         },
         {
+            "balance": 0.5,
             "deinterlace_field_order": 0,
             "deinterlace_mode": 0,
             "enabled": true,
             "filters": [
                 {
+                    "balance": 0.5,
                     "deinterlace_field_order": 0,
                     "deinterlace_mode": 0,
                     "enabled": true,
@@ -1259,6 +1250,7 @@
                     "volume": 1.0
                 },
                 {
+                    "balance": 0.5,
                     "deinterlace_field_order": 0,
                     "deinterlace_mode": 0,
                     "enabled": true,
@@ -1300,6 +1292,7 @@
             "volume": 1.0
         },
         {
+            "balance": 0.5,
             "deinterlace_field_order": 0,
             "deinterlace_mode": 0,
             "enabled": true,
@@ -1314,19 +1307,19 @@
                 "libobs.hide_scene_item.Audio Desktop": [],
                 "libobs.hide_scene_item.Audio Mic Main": [],
                 "libobs.hide_scene_item.Elgato HD60 Pro": [],
-                "libobs.hide_scene_item.Fortnite": [],
                 "libobs.hide_scene_item.Guilty Gear": [],
                 "libobs.hide_scene_item.Key Display": [],
                 "libobs.hide_scene_item.Notifications": [],
+                "libobs.hide_scene_item.Telestration": [],
                 "libobs.hide_scene_item.Webcam Main": [],
                 "libobs.hide_scene_item.Webcam Main Frame": [],
                 "libobs.show_scene_item.Audio Desktop": [],
                 "libobs.show_scene_item.Audio Mic Main": [],
                 "libobs.show_scene_item.Elgato HD60 Pro": [],
-                "libobs.show_scene_item.Fortnite": [],
                 "libobs.show_scene_item.Guilty Gear": [],
                 "libobs.show_scene_item.Key Display": [],
                 "libobs.show_scene_item.Notifications": [],
+                "libobs.show_scene_item.Telestration": [],
                 "libobs.show_scene_item.Webcam Main": [],
                 "libobs.show_scene_item.Webcam Main Frame": []
             },
@@ -1342,7 +1335,7 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": false,
-                "id_counter": 17,
+                "id_counter": 18,
                 "items": [
                     {
                         "align": 5,
@@ -1372,35 +1365,6 @@
                         },
                         "scale_filter": "disable",
                         "visible": false
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 3840.0,
-                            "y": 2160.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 2,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 1,
-                        "locked": false,
-                        "name": "Fortnite",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
                     },
                     {
                         "align": 5,
@@ -1604,6 +1568,35 @@
                         },
                         "scale_filter": "disable",
                         "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 18,
+                        "locked": false,
+                        "name": "Telestration",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 2.0,
+                            "y": 2.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
                     }
                 ]
             },
@@ -1611,6 +1604,7 @@
             "volume": 1.0
         },
         {
+            "balance": 0.5,
             "deinterlace_field_order": 0,
             "deinterlace_mode": 0,
             "enabled": true,
@@ -1891,6 +1885,7 @@
             "volume": 1.0
         },
         {
+            "balance": 0.5,
             "deinterlace_field_order": 0,
             "deinterlace_mode": 0,
             "enabled": true,
@@ -1914,11 +1909,13 @@
             "volume": 1.0
         },
         {
+            "balance": 0.5,
             "deinterlace_field_order": 0,
             "deinterlace_mode": 0,
             "enabled": true,
             "filters": [
                 {
+                    "balance": 0.5,
                     "deinterlace_field_order": 0,
                     "deinterlace_mode": 0,
                     "enabled": true,
@@ -1945,6 +1942,7 @@
                     "volume": 1.0
                 },
                 {
+                    "balance": 0.5,
                     "deinterlace_field_order": 0,
                     "deinterlace_mode": 0,
                     "enabled": true,
@@ -1990,6 +1988,7 @@
             "volume": 1.0
         },
         {
+            "balance": 0.5,
             "deinterlace_field_order": 0,
             "deinterlace_mode": 0,
             "enabled": true,
